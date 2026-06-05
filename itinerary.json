@@ -1,0 +1,2746 @@
+{
+  "schema_version": "travel-job.itinerary.v1",
+  "publish_status": "render_ready",
+  "trip": {
+    "title": "日本岡山大阪七日行",
+    "slug": "2026-10-japan-okayama-osaka",
+    "destination": "岡山 / 大阪 / 奈良",
+    "date_range": {
+      "start": "2026-10-18",
+      "end": "2026-10-24",
+      "days": 7
+    },
+    "important_reminders": [
+      "10/21 換住宿日先排成低強度日，避免拖行李時硬塞遠距離景點。",
+      "住宿資訊只列飯店名稱；訂房細節另行保管。",
+      "每餐下方有區域入口與具名餐廳候選；餐廳臨時店休、票券與 2026/10 實際班次仍需出發前確認。"
+    ]
+  },
+  "summary": {
+    "days": [
+      {
+        "day": 1,
+        "date": "2026-10-18",
+        "title": "Day 1 - 抵達岡山與站前暖身",
+        "anchor": "day-1"
+      },
+      {
+        "day": 2,
+        "date": "2026-10-19",
+        "title": "Day 2 - 倉敷美觀地區與 Outlet 必去日",
+        "anchor": "day-2"
+      },
+      {
+        "day": 3,
+        "date": "2026-10-20",
+        "title": "Day 3 - 岡山城後樂園、吉備津與表町收尾",
+        "anchor": "day-3"
+      },
+      {
+        "day": 4,
+        "date": "2026-10-21",
+        "title": "Day 4 - 移動大阪、黑門市場與難波街區初探",
+        "anchor": "day-4"
+      },
+      {
+        "day": 5,
+        "date": "2026-10-22",
+        "title": "Day 5 - 奈良看鹿與古都散步",
+        "anchor": "day-5"
+      },
+      {
+        "day": 6,
+        "date": "2026-10-23",
+        "title": "Day 6 - 大阪城到天王寺夜景",
+        "anchor": "day-6"
+      },
+      {
+        "day": 7,
+        "date": "2026-10-24",
+        "title": "Day 7 - 大阪港一日遊與前往關西機場",
+        "anchor": "day-7"
+      }
+    ]
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-18",
+      "title": "抵達岡山與站前暖身",
+      "base": "東橫 INN 岡山站東口",
+      "pace": "輕鬆",
+      "daily_reminders": [
+        "15:05 抵達岡山後，第一天只保留 check-in、晚餐與站前熟悉路線。",
+        "若入境或巴士延誤，直接刪掉夜間散步。",
+        "回旅館前安排附近生鮮超市，補水、早餐和隔天小零食。"
+      ],
+      "timeline": [
+        {
+          "time": "15:05",
+          "type": "transport",
+          "title": "抵達岡山桃太郎機場",
+          "summary": "抵達後先入境、取行李，再搭機場巴士前往岡山站。",
+          "place": {
+            "name": "岡山桃太郎機場",
+            "map_url": "https://maps.google.com/?q=Okayama+Momotaro+Airport"
+          },
+          "public_note": "岡山機場官方資訊列岡山站西口與岡山機場約 30 分；航班抵達後仍需依當日接駁班次調整。",
+          "info_status": "confirmed",
+          "end_time": "17:10"
+        },
+        {
+          "time": "17:10",
+          "type": "lodging",
+          "title": "東橫 INN 岡山站東口 check in",
+          "summary": "先放行李，確認岡山站出口與隔天往倉敷的 JR 動線。",
+          "place": {
+            "name": "東橫 INN 岡山站東口",
+            "map_url": "https://maps.google.com/?q=Toyoko%20INN%20Okayama-eki%20Higashi-guchi"
+          },
+          "public_note": "東橫 INN 官方頁列一般 check-in 15:00、check-out 10:00；本頁只列飯店名稱，訂房細節另行保管。",
+          "info_status": "confirmed",
+          "end_time": "18:10"
+        },
+        {
+          "time": "18:10",
+          "type": "restaurant",
+          "title": "晚餐：岡山站周邊在地料理",
+          "summary": "首日晚餐給兩種方向：岡山鄉土居酒屋，或元祖 demi-katsudon。",
+          "place": {
+            "name": "岡山站東口 / 西川緑道公園周邊",
+            "map_url": "https://maps.google.com/?q=Okayama%20Station%20Nishigawa%20Canal%20restaurant"
+          },
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "和風居酒屋 あかり",
+              "specialty": "瀨戶內海鮮、岡山鄉土料理與地酒",
+              "why": "最符合「抵達岡山第一餐」的在地感，從岡山站步行約 6 分。",
+              "note": "瀨戶內海鮮、岡山鄉土料理與地酒。最符合「抵達岡山第一餐」的在地感，從岡山站步行約 6 分。",
+              "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+              "source": "Gurunavi / official gorp pages",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "カツ丼 野村",
+              "specialty": "岡山元祖 demi-katsudon",
+              "why": "如果想吃代表性 B 級美食，這間比泛用車站餐廳更有記憶點。",
+              "note": "岡山元祖 demi-katsudon。如果想吃代表性 B 級美食，這間比泛用車站餐廳更有記憶點。",
+              "map_url": "https://maps.google.com/?q=Katsudon%20Nomura%20Okayama",
+              "source": "Okayama official tourism",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "end_time": "19:40",
+          "food_area": [
+            {
+              "name": "岡山站東口 / 西川緑道公園周邊",
+              "map_url": "https://maps.google.com/?q=Okayama%20Station%20Nishigawa%20Canal%20restaurant",
+              "reason": "離飯店與夜間散步都近，首日不用再遠移動。"
+            }
+          ],
+          "meal_type": "dinner",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "19:40",
+          "type": "sight",
+          "flag": "加碼",
+          "title": "西川綠道公園夜間散步",
+          "summary": "晚餐後沿水邊散步，作為抵達日的輕量收尾。",
+          "place": {
+            "name": "西川綠道公園",
+            "map_url": "https://maps.google.com/?q=Nishigawa+Canal+Park+Okayama"
+          },
+          "public_note": "若太累或下雨，這段直接取消。",
+          "info_status": "estimated",
+          "end_time": "20:20"
+        },
+        {
+          "time": "20:20",
+          "end_time": "20:50",
+          "type": "shopping",
+          "title": "AEON STYLE 岡山食品區補給",
+          "summary": "回旅館前買水、早餐、零食與水果。AEON MALL 岡山離岡山站約 5 分鐘，食品區營業到 23:00。",
+          "flag": "加碼",
+          "place": {
+            "name": "AEON STYLE 岡山食品區",
+            "map_url": "https://maps.google.com/?q=AEON%20MALL%20Okayama%20AEON%20STYLE%20Food"
+          },
+          "public_note": "AEON MALL 岡山官方頁列 AEON STYLE Food Section 7:00-23:00；本日 20:20-20:50 安排安全。",
+          "info_status": "confirmed"
+        },
+        {
+          "time": "20:50",
+          "type": "lodging",
+          "title": "回東橫 INN 岡山站東口",
+          "summary": "整理隔天倉敷 Outlet 日的交通與購物動線。",
+          "place": {
+            "name": "東橫 INN 岡山站東口",
+            "map_url": "https://maps.google.com/?q=Toyoko%20INN%20Okayama-eki%20Higashi-guchi"
+          },
+          "info_status": "confirmed",
+          "end_time": "21:10",
+          "public_note": "東橫 INN 官方頁列一般 check-in 15:00、check-out 10:00；本頁只列飯店名稱，訂房細節另行保管。"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "tired_day",
+          "title": "太累方案",
+          "description": "只保留 check-in 與晚餐，夜間散步取消。",
+          "meal_adjustments": [
+            {
+              "meal_title": "晚餐：岡山站周邊在地料理",
+              "food_area": [
+                {
+                  "name": "岡山站東口 / 西川緑道公園周邊",
+                  "map_url": "https://maps.google.com/?q=Okayama%20Station%20Nishigawa%20Canal%20restaurant",
+                  "reason": "離飯店與夜間散步都近，首日不用再遠移動。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "和風居酒屋 あかり",
+                  "specialty": "瀨戶內海鮮、岡山鄉土料理與地酒",
+                  "why": "最符合「抵達岡山第一餐」的在地感，從岡山站步行約 6 分。",
+                  "note": "瀨戶內海鮮、岡山鄉土料理與地酒。最符合「抵達岡山第一餐」的在地感，從岡山站步行約 6 分。",
+                  "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+                  "source": "Gurunavi / official gorp pages",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "カツ丼 野村",
+                  "specialty": "岡山元祖 demi-katsudon",
+                  "why": "如果想吃代表性 B 級美食，這間比泛用車站餐廳更有記憶點。",
+                  "note": "岡山元祖 demi-katsudon。如果想吃代表性 B 級美食，這間比泛用車站餐廳更有記憶點。",
+                  "map_url": "https://maps.google.com/?q=Katsudon%20Nomura%20Okayama",
+                  "source": "Okayama official tourism",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        },
+        {
+          "type": "restaurant_full",
+          "title": "餐廳客滿",
+          "description": "岡山站內或商場餐廳解決，避免額外移動。",
+          "meal_adjustments": [
+            {
+              "meal_title": "晚餐：岡山站周邊在地料理",
+              "food_area": [
+                {
+                  "name": "岡山站東口 / 西川緑道公園周邊",
+                  "map_url": "https://maps.google.com/?q=Okayama%20Station%20Nishigawa%20Canal%20restaurant",
+                  "reason": "離飯店與夜間散步都近，首日不用再遠移動。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "和風居酒屋 あかり",
+                  "specialty": "瀨戶內海鮮、岡山鄉土料理與地酒",
+                  "why": "最符合「抵達岡山第一餐」的在地感，從岡山站步行約 6 分。",
+                  "note": "瀨戶內海鮮、岡山鄉土料理與地酒。最符合「抵達岡山第一餐」的在地感，從岡山站步行約 6 分。",
+                  "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+                  "source": "Gurunavi / official gorp pages",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "カツ丼 野村",
+                  "specialty": "岡山元祖 demi-katsudon",
+                  "why": "如果想吃代表性 B 級美食，這間比泛用車站餐廳更有記憶點。",
+                  "note": "岡山元祖 demi-katsudon。如果想吃代表性 B 級美食，這間比泛用車站餐廳更有記憶點。",
+                  "map_url": "https://maps.google.com/?q=Katsudon%20Nomura%20Okayama",
+                  "source": "Okayama official tourism",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        }
+      ],
+      "to_confirm": [
+        "出發前確認：Akari / Nomura 當日臨時店休與是否預約。"
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-10-19",
+      "title": "倉敷美觀地區與 Outlet 必去日",
+      "base": "東橫 INN 岡山站東口",
+      "pace": "緊湊",
+      "daily_reminders": [
+        "倉敷美觀地區與 Outlet 都是本日主軸，Outlet 不要壓到只剩收尾時間。",
+        "倉敷美觀地區到三井 Outlet Park 倉敷可步行串起來，適合一天完成。"
+      ],
+      "timeline": [
+        {
+          "time": "08:45",
+          "type": "lodging",
+          "title": "東橫 INN 岡山站東口出發",
+          "summary": "步行到岡山站，準備搭 JR 前往倉敷。",
+          "place": {
+            "name": "東橫 INN 岡山站東口",
+            "map_url": "https://maps.google.com/?q=Toyoko%20INN%20Okayama-eki%20Higashi-guchi"
+          },
+          "info_status": "confirmed",
+          "end_time": "09:05",
+          "public_note": "東橫 INN 官方頁列一般 check-in 15:00、check-out 10:00；本頁只列飯店名稱，訂房細節另行保管。"
+        },
+        {
+          "time": "09:05",
+          "type": "transport",
+          "title": "岡山站 -> 倉敷站",
+          "summary": "JR 山陽本線，約 17 分鐘。",
+          "place": {
+            "name": "倉敷站",
+            "map_url": "https://maps.google.com/?q=Kurashiki+Station"
+          },
+          "public_note": "班次以當日 JR 時刻為準。",
+          "info_status": "estimated",
+          "end_time": "09:40"
+        },
+        {
+          "time": "09:40",
+          "type": "sight",
+          "flag": "必玩",
+          "title": "倉敷美觀地區散步",
+          "summary": "白壁街屋、柳樹河畔與老街，是倉敷日的核心。",
+          "place": {
+            "name": "倉敷美觀地區",
+            "map_url": "https://maps.google.com/?q=Kurashiki+Bikan+Historical+Quarter"
+          },
+          "public_note": "美觀地區本身是街區散步；周邊設施與店家各自有營業時間。",
+          "info_status": "confirmed",
+          "end_time": "11:10"
+        },
+        {
+          "time": "11:10",
+          "type": "sight",
+          "flag": "加碼",
+          "title": "美觀地區小店 / 倉敷館 / 川舟視現場選擇",
+          "summary": "美觀地區小店、倉敷館與街區散步，依現場體力調整停留時間。",
+          "place": {
+            "name": "倉敷美觀地區",
+            "map_url": "https://maps.google.com/?q=Kurashiki%20Bikan%20Historical%20Quarter"
+          },
+          "info_status": "confirmed",
+          "end_time": "12:30",
+          "public_note": "倉敷館觀光案內所 9:00-18:00；美觀地區街區店家各自有營業時間。"
+        },
+        {
+          "time": "12:30",
+          "type": "restaurant",
+          "title": "午餐：倉敷美觀地區和食午餐",
+          "summary": "上午美觀地區後，在同區域吃午餐，再步行往 Outlet。",
+          "place": {
+            "name": "倉敷美觀地區 / 本町通周邊",
+            "map_url": "https://maps.google.com/?q=%E5%80%89%E6%95%B7%E7%BE%8E%E8%A6%B3%E5%9C%B0%E5%8C%BA%20%E3%83%A9%E3%83%B3%E3%83%81"
+          },
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "ゆうなぎ倉敷本店",
+              "specialty": "瀨戶內定食、タコ飯、岡山名物ままかり",
+              "why": "有倉敷與瀨戶內地方感，午餐營業到 14:00。",
+              "note": "瀨戶內定食、タコ飯、岡山名物ままかり。有倉敷與瀨戶內地方感，午餐營業到 14:00。",
+              "map_url": "https://maps.google.com/?q=Yuunagi%20Kurashiki%20Honten",
+              "source": "Yuunagi official lunch page",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "和の心 今川",
+              "specialty": "美觀地區日式午餐",
+              "why": "比單純車站餐廳更貼近美觀地區，但午餐 last order 較早，要注意時間。",
+              "note": "美觀地區日式午餐。比單純車站餐廳更貼近美觀地區，但午餐 last order 較早，要注意時間。",
+              "map_url": "https://maps.google.com/?q=Wanokokoro%20Imagawa%20Kurashiki",
+              "source": "TableCheck",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "end_time": "14:15",
+          "food_area": [
+            {
+              "name": "倉敷美觀地區 / 本町通周邊",
+              "map_url": "https://maps.google.com/?q=Kurashiki%20Bikan%20lunch",
+              "reason": "接在美觀地區散步後最順路。"
+            }
+          ],
+          "meal_type": "lunch",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "14:15",
+          "type": "shopping",
+          "flag": "必玩",
+          "title": "三井 Outlet Park 倉敷",
+          "summary": "必去購物點；從美觀地區步行串回倉敷站北側。",
+          "place": {
+            "name": "三井 Outlet Park 倉敷",
+            "map_url": "https://maps.google.com/?q=Mitsui+Outlet+Park+Kurashiki"
+          },
+          "public_note": "官方頁列 shops / cafeteria 10:00-20:00；本日 14:15-17:50 在營業時段內。",
+          "info_status": "confirmed",
+          "end_time": "17:50"
+        },
+        {
+          "time": "17:50",
+          "type": "transport",
+          "title": "倉敷站 -> 岡山站",
+          "summary": "JR 山陽本線返回岡山，約 17 分鐘。",
+          "place": {
+            "name": "岡山站",
+            "map_url": "https://maps.google.com/?q=Okayama+Station"
+          },
+          "info_status": "estimated",
+          "end_time": "18:40"
+        },
+        {
+          "time": "18:40",
+          "type": "restaurant",
+          "title": "晚餐：岡山站周邊壽司 / 鄉土料理",
+          "summary": "倉敷回岡山後不再跨區，晚餐在岡山站周邊解決。",
+          "place": {
+            "name": "岡山站周邊",
+            "map_url": "https://maps.google.com/?q=Okayama%20Station%20dinner"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "20:20",
+          "food_area": [
+            {
+              "name": "さんすて岡山 / 岡山站內",
+              "map_url": "https://maps.google.com/?q=Sunstation%20Terrace%20Okayama%20restaurant",
+              "reason": "回站後最省體力。"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "吾妻寿司 さんすて岡山店",
+              "specialty": "岡山ばら寿司、ままかり、さわら系壽司",
+              "why": "在岡山站內，倉敷回來最穩，也有岡山地方特色。",
+              "note": "岡山ばら寿司、ままかり、さわら系壽司。在岡山站內，倉敷回來最穩，也有岡山地方特色。",
+              "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+              "source": "Azuma Sushi official site",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "和風居酒屋 あかり",
+              "specialty": "瀨戶內魚、地酒與岡山鄉土料理",
+              "why": "如果想把晚餐做得更像岡山最後幾晚的重點餐，可選這間。",
+              "note": "瀨戶內魚、地酒與岡山鄉土料理。如果想把晚餐做得更像岡山最後幾晚的重點餐，可選這間。",
+              "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+              "source": "Gurunavi / official gorp pages",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "meal_type": "dinner",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "20:20",
+          "type": "lodging",
+          "title": "回東橫 INN 岡山站東口",
+          "summary": "整理購物品與隔天岡山市區 / 吉備線路線。",
+          "place": {
+            "name": "東橫 INN 岡山站東口",
+            "map_url": "https://maps.google.com/?q=Toyoko%20INN%20Okayama-eki%20Higashi-guchi"
+          },
+          "info_status": "confirmed",
+          "end_time": "20:50",
+          "public_note": "東橫 INN 官方頁列一般 check-in 15:00、check-out 10:00；本頁只列飯店名稱，訂房細節另行保管。"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "rainy_day",
+          "title": "雨天方案",
+          "description": "縮短美觀地區戶外散步，保留 Outlet 與室內店舖。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：倉敷美觀地區和食午餐",
+              "food_area": [
+                {
+                  "name": "倉敷美觀地區 / 本町通周邊",
+                  "map_url": "https://maps.google.com/?q=Kurashiki%20Bikan%20lunch",
+                  "reason": "接在美觀地區散步後最順路。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "ゆうなぎ倉敷本店",
+                  "specialty": "瀨戶內定食、タコ飯、岡山名物ままかり",
+                  "why": "有倉敷與瀨戶內地方感，午餐營業到 14:00。",
+                  "note": "瀨戶內定食、タコ飯、岡山名物ままかり。有倉敷與瀨戶內地方感，午餐營業到 14:00。",
+                  "map_url": "https://maps.google.com/?q=Yuunagi%20Kurashiki%20Honten",
+                  "source": "Yuunagi official lunch page",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "和の心 今川",
+                  "specialty": "美觀地區日式午餐",
+                  "why": "比單純車站餐廳更貼近美觀地區，但午餐 last order 較早，要注意時間。",
+                  "note": "美觀地區日式午餐。比單純車站餐廳更貼近美觀地區，但午餐 last order 較早，要注意時間。",
+                  "map_url": "https://maps.google.com/?q=Wanokokoro%20Imagawa%20Kurashiki",
+                  "source": "TableCheck",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：岡山站周邊壽司 / 鄉土料理",
+              "food_area": [
+                {
+                  "name": "さんすて岡山 / 岡山站內",
+                  "map_url": "https://maps.google.com/?q=Sunstation%20Terrace%20Okayama%20restaurant",
+                  "reason": "回站後最省體力。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "吾妻寿司 さんすて岡山店",
+                  "specialty": "岡山ばら寿司、ままかり、さわら系壽司",
+                  "why": "在岡山站內，倉敷回來最穩，也有岡山地方特色。",
+                  "note": "岡山ばら寿司、ままかり、さわら系壽司。在岡山站內，倉敷回來最穩，也有岡山地方特色。",
+                  "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+                  "source": "Azuma Sushi official site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "和風居酒屋 あかり",
+                  "specialty": "瀨戶內魚、地酒與岡山鄉土料理",
+                  "why": "如果想把晚餐做得更像岡山最後幾晚的重點餐，可選這間。",
+                  "note": "瀨戶內魚、地酒與岡山鄉土料理。如果想把晚餐做得更像岡山最後幾晚的重點餐，可選這間。",
+                  "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+                  "source": "Gurunavi / official gorp pages",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        },
+        {
+          "type": "not_enough_time",
+          "title": "時間不夠",
+          "description": "保留美觀地區與 Outlet，街區停留依天氣與體力縮短。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：倉敷美觀地區和食午餐",
+              "food_area": [
+                {
+                  "name": "倉敷美觀地區 / 本町通周邊",
+                  "map_url": "https://maps.google.com/?q=Kurashiki%20Bikan%20lunch",
+                  "reason": "接在美觀地區散步後最順路。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "ゆうなぎ倉敷本店",
+                  "specialty": "瀨戶內定食、タコ飯、岡山名物ままかり",
+                  "why": "有倉敷與瀨戶內地方感，午餐營業到 14:00。",
+                  "note": "瀨戶內定食、タコ飯、岡山名物ままかり。有倉敷與瀨戶內地方感，午餐營業到 14:00。",
+                  "map_url": "https://maps.google.com/?q=Yuunagi%20Kurashiki%20Honten",
+                  "source": "Yuunagi official lunch page",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "和の心 今川",
+                  "specialty": "美觀地區日式午餐",
+                  "why": "比單純車站餐廳更貼近美觀地區，但午餐 last order 較早，要注意時間。",
+                  "note": "美觀地區日式午餐。比單純車站餐廳更貼近美觀地區，但午餐 last order 較早，要注意時間。",
+                  "map_url": "https://maps.google.com/?q=Wanokokoro%20Imagawa%20Kurashiki",
+                  "source": "TableCheck",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：岡山站周邊壽司 / 鄉土料理",
+              "food_area": [
+                {
+                  "name": "さんすて岡山 / 岡山站內",
+                  "map_url": "https://maps.google.com/?q=Sunstation%20Terrace%20Okayama%20restaurant",
+                  "reason": "回站後最省體力。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "吾妻寿司 さんすて岡山店",
+                  "specialty": "岡山ばら寿司、ままかり、さわら系壽司",
+                  "why": "在岡山站內，倉敷回來最穩，也有岡山地方特色。",
+                  "note": "岡山ばら寿司、ままかり、さわら系壽司。在岡山站內，倉敷回來最穩，也有岡山地方特色。",
+                  "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+                  "source": "Azuma Sushi official site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "和風居酒屋 あかり",
+                  "specialty": "瀨戶內魚、地酒與岡山鄉土料理",
+                  "why": "如果想把晚餐做得更像岡山最後幾晚的重點餐，可選這間。",
+                  "note": "瀨戶內魚、地酒與岡山鄉土料理。如果想把晚餐做得更像岡山最後幾晚的重點餐，可選這間。",
+                  "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+                  "source": "Gurunavi / official gorp pages",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        }
+      ],
+      "to_confirm": [
+        "出發前確認：ゆうなぎ / 今川 / 吾妻寿司 / Akari 當日臨時店休、訂位與排隊風險。"
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-10-20",
+      "title": "岡山城後樂園、吉備津與表町收尾",
+      "base": "東橫 INN 岡山站東口",
+      "pace": "緊湊",
+      "daily_reminders": [
+        "後樂園 10 月營業到 17:00，岡山城到 17:30，城與庭園排在白天。",
+        "吉備津神社交通不難，但回程班次仍要看當日 JR 時刻。",
+        "下午從吉備津回岡山後補表町 / 奉還町一段，避免回站後空掉。"
+      ],
+      "timeline": [
+        {
+          "time": "08:45",
+          "type": "lodging",
+          "title": "東橫 INN 岡山站東口出發",
+          "summary": "前往岡山站轉路面電車或步行到後樂園 / 岡山城區域。",
+          "place": {
+            "name": "東橫 INN 岡山站東口",
+            "map_url": "https://maps.google.com/?q=Toyoko%20INN%20Okayama-eki%20Higashi-guchi"
+          },
+          "info_status": "confirmed",
+          "end_time": "09:20",
+          "public_note": "東橫 INN 官方頁列一般 check-in 15:00、check-out 10:00；本頁只列飯店名稱，訂房細節另行保管。"
+        },
+        {
+          "time": "09:20",
+          "type": "sight",
+          "flag": "必玩",
+          "title": "岡山後樂園",
+          "summary": "日本三名園之一，早上先看庭園，避免壓到下午關門時間。",
+          "place": {
+            "name": "岡山後樂園",
+            "map_url": "https://maps.google.com/?q=Okayama+Korakuen+Garden"
+          },
+          "public_note": "官方資訊列 10/1-3/19 開園 8:00-17:00，最後入園 16:45；本日早上安排安全。",
+          "info_status": "confirmed",
+          "end_time": "11:10"
+        },
+        {
+          "time": "11:10",
+          "type": "sight",
+          "flag": "必玩",
+          "title": "岡山城",
+          "summary": "黑色天守與後樂園成一組，作為岡山市區文化主軸。",
+          "place": {
+            "name": "岡山城",
+            "map_url": "https://maps.google.com/?q=Okayama+Castle"
+          },
+          "public_note": "官方資訊列開館 9:00-17:30，最後入場 17:00；本日 11:10-12:40 安排安全。",
+          "info_status": "confirmed",
+          "end_time": "12:40"
+        },
+        {
+          "time": "12:40",
+          "type": "restaurant",
+          "title": "午餐：岡山城 / 表町周邊 demi-katsudon",
+          "summary": "岡山城後往表町 / 站前吃岡山代表性午餐，再去吉備津。",
+          "place": {
+            "name": "岡山城 / 表町 / 西川緑道公園周邊",
+            "map_url": "https://maps.google.com/?q=Okayama%20Castle%20Omotecho%20lunch"
+          },
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "カツ丼 野村",
+              "specialty": "岡山元祖 demi-katsudon",
+              "why": "這天白天最適合插入岡山名物，比晚上排隊風險低。",
+              "note": "岡山元祖 demi-katsudon。這天白天最適合插入岡山名物，比晚上排隊風險低。",
+              "map_url": "https://maps.google.com/?q=Katsudon%20Nomura%20Okayama",
+              "source": "Okayama official tourism",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "specialty": "岡山ばらずし、鰆壽司與站內和食",
+              "why": "岡山站內，回程與雨天都穩，適合作為站內和食備案。",
+              "note": "岡山ばらずし、鰆壽司與站內和食。岡山站內，回程與雨天都穩，適合作為站內和食備案。",
+              "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+              "source": "Okayama city official tourism",
+              "name": "吾妻寿司 さんすて岡山店",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "end_time": "14:10",
+          "food_area": [
+            {
+              "name": "西川緑道公園 / 平和町",
+              "map_url": "https://maps.google.com/?q=Heiwacho%20Okayama%20lunch",
+              "reason": "野村位置適合岡山城後移動。"
+            }
+          ],
+          "meal_type": "lunch",
+          "public_note": "本日午餐備案使用岡山站內的吾妻寿司 さんすて岡山店，路線穩定；餐廳臨時店休與排隊狀態仍需出發前確認。"
+        },
+        {
+          "time": "14:10",
+          "type": "transport",
+          "title": "岡山站 -> 吉備津站",
+          "summary": "JR 吉備線前往吉備津站，步行到吉備津神社。",
+          "place": {
+            "name": "吉備津站",
+            "map_url": "https://maps.google.com/?q=Kibitsu+Station"
+          },
+          "public_note": "吉備津神社官方英文頁列岡山站到吉備津站約 30 分；出站步行約 10 分。",
+          "info_status": "confirmed",
+          "end_time": "14:55"
+        },
+        {
+          "time": "14:55",
+          "type": "sight",
+          "flag": "私心",
+          "title": "吉備津神社",
+          "summary": "桃太郎傳說與長廊建築，補上岡山在地體驗感。",
+          "place": {
+            "name": "吉備津神社",
+            "map_url": "https://maps.google.com/?q=Kibitsu+Jinja+Shrine"
+          },
+          "public_note": "觀光資訊列開門 5:00-18:00、受付 8:30-16:00；本日 14:55-16:45 安排可行。鳴釜神事有特定不可行日，若要體驗需另查。",
+          "info_status": "confirmed",
+          "end_time": "16:45"
+        },
+        {
+          "time": "16:45",
+          "type": "transport",
+          "title": "吉備津站 -> 岡山站",
+          "summary": "JR 吉備線返回岡山站，晚餐前留一點休息時間。",
+          "place": {
+            "name": "岡山站",
+            "map_url": "https://maps.google.com/?q=Okayama+Station"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "17:20",
+          "public_note": "回程同樣以吉備津站回岡山站；2026/10/20 實際班次需出發前查。"
+        },
+        {
+          "time": "17:20",
+          "end_time": "18:40",
+          "type": "shopping",
+          "flag": "加碼",
+          "title": "奉還町商店街在地短逛",
+          "summary": "回到岡山站後走西口奉還町，收一段比較生活感的商店街與咖啡 / 小店；若當天累或下雨，直接改 AEON MALL 岡山。",
+          "place": {
+            "name": "奉還町商店街",
+            "map_url": "https://maps.google.com/?q=Hokancho%20Shopping%20Street%20Okayama"
+          },
+          "public_note": "岡山官方旅遊介紹奉還町為距 JR 岡山站約 5 分鐘、具在地生活感的商店街；各店營業時間不同，這段以短逛為主。",
+          "info_status": "confirmed"
+        },
+        {
+          "time": "18:40",
+          "type": "restaurant",
+          "title": "晚餐：岡山最後一晚鄉土料理",
+          "summary": "岡山最後一晚安排一餐比較像收尾的地方料理。",
+          "place": {
+            "name": "岡山站東口 / 野田屋町周邊",
+            "map_url": "https://maps.google.com/?q=Okayama%20Station%20Nodayacho%20dinner"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "20:00",
+          "food_area": [
+            {
+              "name": "野田屋町 / 岡山站東口",
+              "map_url": "https://maps.google.com/?q=Nodayacho%20Okayama%20dinner",
+              "reason": "鄉土居酒屋和站距離兼顧。"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "和風居酒屋 あかり",
+              "specialty": "鰆、下津井蛸、ままかり、千屋牛等岡山料理",
+              "why": "比泛用晚餐更有岡山收尾感。",
+              "note": "鰆、下津井蛸、ままかり、千屋牛等岡山料理。比泛用晚餐更有岡山收尾感。",
+              "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+              "source": "Gurunavi / official gorp pages",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "吾妻寿司 さんすて岡山店",
+              "specialty": "岡山ばら寿司與站內壽司",
+              "why": "更近、更穩，適合隔天移動大阪前不要太晚。",
+              "note": "岡山ばら寿司與站內壽司。更近、更穩，適合隔天移動大阪前不要太晚。",
+              "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+              "source": "Azuma Sushi official site",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "meal_type": "dinner",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "20:00",
+          "type": "lodging",
+          "title": "回東橫 INN 岡山站東口",
+          "summary": "整理行李，準備隔天 check-out 後移動大阪。",
+          "place": {
+            "name": "東橫 INN 岡山站東口",
+            "map_url": "https://maps.google.com/?q=Toyoko%20INN%20Okayama-eki%20Higashi-guchi"
+          },
+          "info_status": "confirmed",
+          "end_time": "20:30",
+          "public_note": "東橫 INN 官方頁列一般 check-in 15:00、check-out 10:00；本頁只列飯店名稱，訂房細節另行保管。"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "rainy_day",
+          "title": "雨天方案",
+          "description": "雨勢大時保留岡山城與室內午餐，下午以站前商場收尾。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：岡山城 / 表町周邊 demi-katsudon",
+              "food_area": [
+                {
+                  "name": "西川緑道公園 / 平和町",
+                  "map_url": "https://maps.google.com/?q=Heiwacho%20Okayama%20lunch",
+                  "reason": "野村位置適合岡山城後移動。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "カツ丼 野村",
+                  "specialty": "岡山元祖 demi-katsudon",
+                  "why": "這天白天最適合插入岡山名物，比晚上排隊風險低。",
+                  "note": "岡山元祖 demi-katsudon。這天白天最適合插入岡山名物，比晚上排隊風險低。",
+                  "map_url": "https://maps.google.com/?q=Katsudon%20Nomura%20Okayama",
+                  "source": "Okayama official tourism",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "specialty": "岡山ばらずし、鰆壽司與站內和食",
+                  "why": "岡山站內，回程與雨天都穩，適合作為站內和食備案。",
+                  "note": "岡山ばらずし、鰆壽司與站內和食。岡山站內，回程與雨天都穩，適合作為站內和食備案。",
+                  "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+                  "source": "Okayama city official tourism",
+                  "name": "吾妻寿司 さんすて岡山店",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：岡山最後一晚鄉土料理",
+              "food_area": [
+                {
+                  "name": "野田屋町 / 岡山站東口",
+                  "map_url": "https://maps.google.com/?q=Nodayacho%20Okayama%20dinner",
+                  "reason": "鄉土居酒屋和站距離兼顧。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "和風居酒屋 あかり",
+                  "specialty": "鰆、下津井蛸、ままかり、千屋牛等岡山料理",
+                  "why": "比泛用晚餐更有岡山收尾感。",
+                  "note": "鰆、下津井蛸、ままかり、千屋牛等岡山料理。比泛用晚餐更有岡山收尾感。",
+                  "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+                  "source": "Gurunavi / official gorp pages",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "吾妻寿司 さんすて岡山店",
+                  "specialty": "岡山ばら寿司與站內壽司",
+                  "why": "更近、更穩，適合隔天移動大阪前不要太晚。",
+                  "note": "岡山ばら寿司與站內壽司。更近、更穩，適合隔天移動大阪前不要太晚。",
+                  "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+                  "source": "Azuma Sushi official site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        },
+        {
+          "type": "not_enough_time",
+          "title": "時間不夠",
+          "description": "保留後樂園與岡山城，吉備津神社移到候選或下次。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：岡山城 / 表町周邊 demi-katsudon",
+              "food_area": [
+                {
+                  "name": "西川緑道公園 / 平和町",
+                  "map_url": "https://maps.google.com/?q=Heiwacho%20Okayama%20lunch",
+                  "reason": "野村位置適合岡山城後移動。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "カツ丼 野村",
+                  "specialty": "岡山元祖 demi-katsudon",
+                  "why": "這天白天最適合插入岡山名物，比晚上排隊風險低。",
+                  "note": "岡山元祖 demi-katsudon。這天白天最適合插入岡山名物，比晚上排隊風險低。",
+                  "map_url": "https://maps.google.com/?q=Katsudon%20Nomura%20Okayama",
+                  "source": "Okayama official tourism",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "specialty": "岡山ばらずし、鰆壽司與站內和食",
+                  "why": "岡山站內，回程與雨天都穩，適合作為站內和食備案。",
+                  "note": "岡山ばらずし、鰆壽司與站內和食。岡山站內，回程與雨天都穩，適合作為站內和食備案。",
+                  "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+                  "source": "Okayama city official tourism",
+                  "name": "吾妻寿司 さんすて岡山店",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：岡山最後一晚鄉土料理",
+              "food_area": [
+                {
+                  "name": "野田屋町 / 岡山站東口",
+                  "map_url": "https://maps.google.com/?q=Nodayacho%20Okayama%20dinner",
+                  "reason": "鄉土居酒屋和站距離兼顧。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "和風居酒屋 あかり",
+                  "specialty": "鰆、下津井蛸、ままかり、千屋牛等岡山料理",
+                  "why": "比泛用晚餐更有岡山收尾感。",
+                  "note": "鰆、下津井蛸、ままかり、千屋牛等岡山料理。比泛用晚餐更有岡山收尾感。",
+                  "map_url": "https://maps.google.com/?q=Wafuizakaya%20Akari%20Okayama",
+                  "source": "Gurunavi / official gorp pages",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "吾妻寿司 さんすて岡山店",
+                  "specialty": "岡山ばら寿司與站內壽司",
+                  "why": "更近、更穩，適合隔天移動大阪前不要太晚。",
+                  "note": "岡山ばら寿司與站內壽司。更近、更穩，適合隔天移動大阪前不要太晚。",
+                  "map_url": "https://maps.google.com/?q=Azuma%20Sushi%20Sun%20Station%20Okayama",
+                  "source": "Azuma Sushi official site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        }
+      ],
+      "to_confirm": [
+        "吉備線 2026/10/20 當日實際班次。",
+        "出發前確認：Nomura / 吾妻寿司 / Akari 當日臨時店休與排隊風險。"
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-10-21",
+      "title": "移動大阪、黑門市場與難波街區初探",
+      "base": "Crystal Court Namba",
+      "pace": "適中",
+      "daily_reminders": [
+        "換住宿日不要排遠郊，先把岡山到大阪與行李處理做好。",
+        "晚餐後可逛道頓堀，但人多時不用硬撐。",
+        "下午補難波近距離街區，不跨遠，讓換住宿日仍有大阪感。"
+      ],
+      "timeline": [
+        {
+          "time": "09:30",
+          "type": "lodging",
+          "title": "東橫 INN 岡山站東口 check-out",
+          "summary": "帶行李前往岡山站，保守抓一點車站整理時間。",
+          "place": {
+            "name": "東橫 INN 岡山站東口",
+            "map_url": "https://maps.google.com/?q=Toyoko%20INN%20Okayama-eki%20Higashi-guchi"
+          },
+          "info_status": "confirmed",
+          "end_time": "10:30",
+          "public_note": "東橫 INN 官方頁列一般 check-in 15:00、check-out 10:00；本頁只列飯店名稱，訂房細節另行保管。"
+        },
+        {
+          "time": "10:30",
+          "type": "transport",
+          "title": "岡山站 -> 新大阪站",
+          "summary": "山陽新幹線前往新大阪，再轉地鐵 / 私鐵往難波。",
+          "place": {
+            "name": "新大阪站",
+            "map_url": "https://maps.google.com/?q=Shin-Osaka+Station"
+          },
+          "public_note": "新幹線實際班次與指定席需接近出發前確認。",
+          "info_status": "estimated",
+          "end_time": "12:15"
+        },
+        {
+          "time": "12:15",
+          "type": "lodging",
+          "title": "Crystal Court Namba 寄放行李",
+          "summary": "若尚未能 check-in，先寄放行李或使用車站置物櫃。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal%20Court%20Namba%203-6-17%20Nambanaka%20Osaka"
+          },
+          "public_note": "訂房平台列 check-in after 16:00、check-out before 10:00，並列有 luggage storage；因自助住宿 / access code 需提前聯絡，寄放行李仍需出發前確認。",
+          "info_status": "needs_confirmation",
+          "end_time": "12:50"
+        },
+        {
+          "time": "12:50",
+          "type": "restaurant",
+          "title": "午餐：難波老店快速午餐",
+          "summary": "換住宿日午餐在難波周邊，選老店但不要太拖時間。",
+          "place": {
+            "name": "難波 / 千日前 / 日本橋周邊",
+            "map_url": "https://maps.google.com/?q=Namba%20Sennichimae%20lunch"
+          },
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "自由軒 難波本店",
+              "specialty": "大阪名物カレー",
+              "why": "明治創業、難波代表性老店，午餐快速且有地方感。",
+              "note": "大阪名物カレー。明治創業、難波代表性老店，午餐快速且有地方感。",
+              "map_url": "https://maps.google.com/?q=Jiyuken%20Namba%20Honten",
+              "source": "Jiyuken official site",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "specialty": "大阪燒、鐵板燒、道頓堀粉もの",
+              "why": "同區域營業時間較寬的粉もの備案，適合移動日午餐。",
+              "note": "大阪燒、鐵板燒、道頓堀粉もの。同區域營業時間較寬，適合移動日午餐備案。",
+              "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+              "source": "Nakaza Cuidaore official / Gurunavi",
+              "name": "ぼんくら家＋ 中座くいだおれビル店",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "end_time": "14:20",
+          "food_area": [
+            {
+              "name": "千日前 / 難波本店老店區",
+              "map_url": "https://maps.google.com/?q=Sennichimae%20Namba%20lunch",
+              "reason": "接在抵達難波與黑門市場前後都順。"
+            }
+          ],
+          "meal_type": "lunch",
+          "public_note": "本日午餐備案使用ぼんくら家＋ 中座くいだおれビル店；餐廳臨時店休與排隊狀態仍需出發前確認。"
+        },
+        {
+          "time": "14:20",
+          "type": "shopping",
+          "flag": "加碼",
+          "title": "黑門市場短停留",
+          "summary": "先用輕量逛街進入大阪，不把移動日排成硬景點日。",
+          "place": {
+            "name": "黑門市場",
+            "map_url": "https://maps.google.com/?q=Kuromon+Ichiba+Market"
+          },
+          "public_note": "黑門市場多數攤位約 8:00-18:00，部分海鮮攤較早收；本日 14:20-15:20 是短停留，不把重點放在必吃攤位。",
+          "info_status": "confirmed",
+          "end_time": "15:20"
+        },
+        {
+          "time": "15:20",
+          "end_time": "16:30",
+          "type": "shopping",
+          "title": "千日前道具屋筋 / 日本橋短逛",
+          "summary": "保留大阪廚具街與日本橋的在地逛街感；若行李寄放不順或天氣差，縮短為只走道具屋筋。",
+          "flag": "加碼",
+          "place": {
+            "name": "千日前道具屋筋商店街",
+            "map_url": "https://maps.google.com/?q=Sennichimae%20Doguyasuji%20Shopping%20Street"
+          },
+          "public_note": "道具屋筋是難波一帶代表性的廚具 / 專門店商店街；各店營業時間不同，這段以短逛與路線體驗為主。",
+          "info_status": "confirmed"
+        },
+        {
+          "time": "16:40",
+          "type": "lodging",
+          "title": "Crystal Court Namba check in",
+          "summary": "回住宿整理行李，晚餐前休息。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal%20Court%20Namba%203-6-17%20Nambanaka%20Osaka"
+          },
+          "info_status": "confirmed",
+          "end_time": "17:25",
+          "public_note": "訂房平台列 check-in after 16:00、check-out before 10:00，並列有 luggage storage；因自助住宿 / access code 需提前聯絡，寄放行李仍需出發前確認。"
+        },
+        {
+          "time": "17:25",
+          "end_time": "18:10",
+          "type": "sight",
+          "title": "法善寺橫丁短停留",
+          "summary": "晚餐前補一段難波巷弄氣氛，和道頓堀夜間散步自然銜接。",
+          "flag": "私心",
+          "place": {
+            "name": "法善寺橫丁",
+            "map_url": "https://maps.google.com/?q=Hozenji%20Yokocho%20Osaka"
+          },
+          "public_note": "短停留即可，不必久待。",
+          "info_status": "estimated"
+        },
+        {
+          "time": "18:10",
+          "type": "restaurant",
+          "title": "晚餐：道頓堀粉もの第一晚",
+          "summary": "大阪第一晚用粉もの進入節奏，主推和備案都在道頓堀 / 難波。",
+          "place": {
+            "name": "道頓堀 / 中座くいだおれビル周邊",
+            "map_url": "https://maps.google.com/?q=Dotonbori%20okonomiyaki"
+          },
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "ぼんくら家＋ 中座くいだおれビル店",
+              "specialty": "大阪お好み焼き、鐵板燒",
+              "why": "位置正好，晚餐後接道頓堀夜間散步最順。",
+              "note": "大阪お好み焼き、鐵板燒。位置正好，晚餐後接道頓堀夜間散步最順。",
+              "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+              "source": "Official restaurant site",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "くれおーる 道頓堀店",
+              "specialty": "たこ焼き、お好み焼き、鉄板焼き",
+              "why": "想一次吃大阪粉もの時適合，也離道頓堀核心近。",
+              "note": "たこ焼き、お好み焼き、鉄板焼き。想一次吃大阪粉もの時適合，也離道頓堀核心近。",
+              "map_url": "https://maps.google.com/?q=Creo-ru%20Dotonbori",
+              "source": "Official restaurant site",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "end_time": "19:40",
+          "food_area": [
+            {
+              "name": "道頓堀中座くいだおれビル周邊",
+              "map_url": "https://maps.google.com/?q=Dotonbori%20Kuidaore%20Building%20okonomiyaki",
+              "reason": "晚餐後可直接接道頓堀散步。"
+            }
+          ],
+          "meal_type": "dinner",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "19:40",
+          "type": "sight",
+          "flag": "私心",
+          "title": "道頓堀夜間散步",
+          "summary": "看招牌、河岸與大阪夜間氣氛，走到覺得剛好就回住宿。",
+          "place": {
+            "name": "道頓堀",
+            "map_url": "https://maps.google.com/?q=Dotonbori+Osaka"
+          },
+          "public_note": "人潮可能很重，這段是感受氣氛，不需要久待。",
+          "info_status": "estimated",
+          "end_time": "21:00"
+        },
+        {
+          "time": "21:00",
+          "type": "lodging",
+          "title": "回 Crystal Court Namba",
+          "summary": "結束換住宿日。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal%20Court%20Namba%203-6-17%20Nambanaka%20Osaka"
+          },
+          "info_status": "confirmed",
+          "end_time": "21:30",
+          "public_note": "訂房平台列 check-in after 16:00、check-out before 10:00，並列有 luggage storage；因自助住宿 / access code 需提前聯絡，寄放行李仍需出發前確認。"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "luggage_day",
+          "title": "行李卡住",
+          "description": "取消黑門市場，先完成寄放 / check-in，再只保留晚餐。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：難波老店快速午餐",
+              "food_area": [
+                {
+                  "name": "千日前 / 難波本店老店區",
+                  "map_url": "https://maps.google.com/?q=Sennichimae%20Namba%20lunch",
+                  "reason": "接在抵達難波與黑門市場前後都順。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "自由軒 難波本店",
+                  "specialty": "大阪名物カレー",
+                  "why": "明治創業、難波代表性老店，午餐快速且有地方感。",
+                  "note": "大阪名物カレー。明治創業、難波代表性老店，午餐快速且有地方感。",
+                  "map_url": "https://maps.google.com/?q=Jiyuken%20Namba%20Honten",
+                  "source": "Jiyuken official site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "specialty": "大阪燒、鐵板燒、道頓堀粉もの",
+                  "why": "同區域營業時間較寬的粉もの備案，適合移動日午餐。",
+                  "note": "大阪燒、鐵板燒、道頓堀粉もの。同區域營業時間較寬，適合移動日午餐備案。",
+                  "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+                  "source": "Nakaza Cuidaore official / Gurunavi",
+                  "name": "ぼんくら家＋ 中座くいだおれビル店",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：道頓堀粉もの第一晚",
+              "food_area": [
+                {
+                  "name": "道頓堀中座くいだおれビル周邊",
+                  "map_url": "https://maps.google.com/?q=Dotonbori%20Kuidaore%20Building%20okonomiyaki",
+                  "reason": "晚餐後可直接接道頓堀散步。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "ぼんくら家＋ 中座くいだおれビル店",
+                  "specialty": "大阪お好み焼き、鐵板燒",
+                  "why": "位置正好，晚餐後接道頓堀夜間散步最順。",
+                  "note": "大阪お好み焼き、鐵板燒。位置正好，晚餐後接道頓堀夜間散步最順。",
+                  "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "くれおーる 道頓堀店",
+                  "specialty": "たこ焼き、お好み焼き、鉄板焼き",
+                  "why": "想一次吃大阪粉もの時適合，也離道頓堀核心近。",
+                  "note": "たこ焼き、お好み焼き、鉄板焼き。想一次吃大阪粉もの時適合，也離道頓堀核心近。",
+                  "map_url": "https://maps.google.com/?q=Creo-ru%20Dotonbori",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        },
+        {
+          "type": "crowded",
+          "title": "道頓堀太擠",
+          "description": "只拍重點招牌後改回難波周邊室內商場。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：難波老店快速午餐",
+              "food_area": [
+                {
+                  "name": "千日前 / 難波本店老店區",
+                  "map_url": "https://maps.google.com/?q=Sennichimae%20Namba%20lunch",
+                  "reason": "接在抵達難波與黑門市場前後都順。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "自由軒 難波本店",
+                  "specialty": "大阪名物カレー",
+                  "why": "明治創業、難波代表性老店，午餐快速且有地方感。",
+                  "note": "大阪名物カレー。明治創業、難波代表性老店，午餐快速且有地方感。",
+                  "map_url": "https://maps.google.com/?q=Jiyuken%20Namba%20Honten",
+                  "source": "Jiyuken official site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "specialty": "大阪燒、鐵板燒、道頓堀粉もの",
+                  "why": "同區域營業時間較寬的粉もの備案，適合移動日午餐。",
+                  "note": "大阪燒、鐵板燒、道頓堀粉もの。同區域營業時間較寬，適合移動日午餐備案。",
+                  "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+                  "source": "Nakaza Cuidaore official / Gurunavi",
+                  "name": "ぼんくら家＋ 中座くいだおれビル店",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：道頓堀粉もの第一晚",
+              "food_area": [
+                {
+                  "name": "道頓堀中座くいだおれビル周邊",
+                  "map_url": "https://maps.google.com/?q=Dotonbori%20Kuidaore%20Building%20okonomiyaki",
+                  "reason": "晚餐後可直接接道頓堀散步。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "ぼんくら家＋ 中座くいだおれビル店",
+                  "specialty": "大阪お好み焼き、鐵板燒",
+                  "why": "位置正好，晚餐後接道頓堀夜間散步最順。",
+                  "note": "大阪お好み焼き、鐵板燒。位置正好，晚餐後接道頓堀夜間散步最順。",
+                  "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "くれおーる 道頓堀店",
+                  "specialty": "たこ焼き、お好み焼き、鉄板焼き",
+                  "why": "想一次吃大阪粉もの時適合，也離道頓堀核心近。",
+                  "note": "たこ焼き、お好み焼き、鉄板焼き。想一次吃大阪粉もの時適合，也離道頓堀核心近。",
+                  "map_url": "https://maps.google.com/?q=Creo-ru%20Dotonbori",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        }
+      ],
+      "to_confirm": [
+        "出發前確認：Crystal Court Namba access code / 提前寄放行李；不可寄放時改難波車站置物櫃。",
+        "出發前確認：自由軒 / ぼんくら家＋ / くれおーる 當日臨時店休、訂位與排隊風險。"
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-10-22",
+      "title": "奈良看鹿與古都散步",
+      "base": "Crystal Court Namba",
+      "pace": "緊湊",
+      "daily_reminders": [
+        "奈良看鹿是必去，本日把重心放在奈良公園、東大寺與春日大社周邊。",
+        "鹿仙貝互動要注意包包與紙袋，同行者之間互相照看。"
+      ],
+      "timeline": [
+        {
+          "time": "08:30",
+          "type": "lodging",
+          "title": "Crystal Court Namba 出發",
+          "summary": "步行或短程移動到大阪難波 / 近鐵難波站。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal%20Court%20Namba%203-6-17%20Nambanaka%20Osaka"
+          },
+          "info_status": "confirmed",
+          "end_time": "08:55",
+          "public_note": "訂房平台列 check-in after 16:00、check-out before 10:00，並列有 luggage storage；因自助住宿 / access code 需提前聯絡，寄放行李仍需出發前確認。"
+        },
+        {
+          "time": "08:55",
+          "type": "transport",
+          "title": "大阪難波 -> 近鐵奈良",
+          "summary": "近鐵奈良線前往近鐵奈良站，約 40 分上下。",
+          "place": {
+            "name": "近鐵奈良站",
+            "map_url": "https://maps.google.com/?q=Kintetsu+Nara+Station"
+          },
+          "public_note": "奈良官方旅遊資訊列 Osaka-Namba 到 Kintetsu-Nara 約 34 分；實際班次出發前查。",
+          "info_status": "confirmed",
+          "end_time": "09:45"
+        },
+        {
+          "time": "09:45",
+          "type": "sight",
+          "flag": "必玩",
+          "title": "奈良公園看鹿",
+          "summary": "本日必去主軸，先在公園慢慢拍照、餵鹿與熟悉動線。",
+          "place": {
+            "name": "奈良公園",
+            "map_url": "https://maps.google.com/?q=Nara+Park"
+          },
+          "public_note": "JNTO 說從近鐵奈良站到公園約 5 分鐘步行。",
+          "info_status": "confirmed",
+          "end_time": "11:00"
+        },
+        {
+          "time": "11:00",
+          "type": "sight",
+          "flag": "必玩",
+          "title": "東大寺大佛殿",
+          "summary": "奈良文化核心，和看鹿行程自然串起來。",
+          "place": {
+            "name": "東大寺",
+            "map_url": "https://maps.google.com/?q=Todaiji+Temple"
+          },
+          "public_note": "東大寺官方列大佛殿 4-10 月 7:30-17:30；本日 11:00-12:40 安排安全。",
+          "info_status": "confirmed",
+          "end_time": "12:40"
+        },
+        {
+          "time": "12:40",
+          "type": "restaurant",
+          "title": "午餐：奈良公園 / 奈良町釜飯午餐",
+          "summary": "看鹿與東大寺後，午餐安排奈良公園或奈良町周邊。",
+          "place": {
+            "name": "奈良公園 / 奈良町 / 近鐵奈良周邊",
+            "map_url": "https://maps.google.com/?q=Nara%20Park%20Naramachi%20lunch"
+          },
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "釜めし志津香 公園店",
+              "specialty": "直火炊き釜飯",
+              "why": "奈良公園附近代表性午餐，但需要抓排隊和炊飯時間。",
+              "note": "直火炊き釜飯。奈良公園附近代表性午餐，但需要抓排隊和炊飯時間。",
+              "map_url": "https://maps.google.com/?q=Kamameshi%20Shizuka%20Kouen%20Nara",
+              "source": "Official Shizuka site",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "かやく飯とお酒 かやく",
+              "specialty": "かやく飯、和食午餐",
+              "why": "靠近近鐵奈良 / きたまち，適合想避開熱門釜飯排隊時。",
+              "note": "かやく飯、和食午餐。靠近近鐵奈良 / きたまち，適合想避開熱門釜飯排隊時。",
+              "map_url": "https://maps.google.com/?q=Kayaku%20Meshi%20Nara",
+              "source": "Official restaurant site",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "end_time": "14:10",
+          "food_area": [
+            {
+              "name": "奈良公園 / 登大路周邊",
+              "map_url": "https://maps.google.com/?q=Nara%20Park%20lunch",
+              "reason": "東大寺和看鹿後最近。"
+            }
+          ],
+          "meal_type": "lunch",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "14:10",
+          "type": "sight",
+          "flag": "私心",
+          "title": "春日大社參道與周邊散步",
+          "summary": "從公園鹿群延伸到燈籠參道，補足奈良的神社氣氛。",
+          "place": {
+            "name": "春日大社",
+            "map_url": "https://maps.google.com/?q=Kasuga+Taisha"
+          },
+          "info_status": "confirmed",
+          "end_time": "16:10",
+          "public_note": "春日大社官方列 3-10 月一般參拜 6:30-17:30，特別參拜 9:00-16:00；本日散步安排安全，若要特別參拜需注意 16:00。"
+        },
+        {
+          "time": "16:10",
+          "type": "shopping",
+          "flag": "加碼",
+          "title": "奈良町 / 東向商店街",
+          "summary": "回程前買小物與甜點，作為奈良日收尾。",
+          "place": {
+            "name": "東向商店街",
+            "map_url": "https://maps.google.com/?q=Higashimuki+Shopping+Street"
+          },
+          "info_status": "estimated",
+          "end_time": "17:45"
+        },
+        {
+          "time": "17:45",
+          "type": "transport",
+          "title": "近鐵奈良 -> 大阪難波",
+          "summary": "近鐵奈良線返回大阪難波。",
+          "place": {
+            "name": "大阪難波站",
+            "map_url": "https://maps.google.com/?q=Osaka-Namba+Station"
+          },
+          "info_status": "confirmed",
+          "end_time": "18:50",
+          "public_note": "回程同路線，約 34 分為基準；實際班次出發前查。"
+        },
+        {
+          "time": "18:50",
+          "type": "restaurant",
+          "title": "晚餐：奈良回程後的難波晚餐",
+          "summary": "奈良回大阪後不再跨區，選難波 / 道頓堀容易落地的晚餐。",
+          "place": {
+            "name": "難波 / 道頓堀周邊",
+            "map_url": "https://maps.google.com/?q=Namba%20Dotonbori%20dinner"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "20:40",
+          "food_area": [
+            {
+              "name": "道頓堀 / 法善寺周邊",
+              "map_url": "https://maps.google.com/?q=Dotonbori%20Hozenji%20dinner",
+              "reason": "從近鐵奈良回難波後最有大阪感。"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "道頓堀 今井 本店",
+              "specialty": "大阪出汁うどん",
+              "why": "奈良走一整天後，這餐比鐵板更溫和。",
+              "note": "大阪出汁うどん。奈良走一整天後，這餐比鐵板更溫和。",
+              "map_url": "https://maps.google.com/?q=Dotonbori%20Imai%20Honten",
+              "source": "Dotonbori Imai official site",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "ぼんくら家＋ 中座くいだおれビル店",
+              "specialty": "大阪お好み焼き",
+              "why": "如果 Day4 沒吃到粉もの，可在這晚補。",
+              "note": "大阪お好み焼き。如果 Day4 沒吃到粉もの，可在這晚補。",
+              "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+              "source": "Official restaurant site",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "meal_type": "dinner",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "20:40",
+          "type": "lodging",
+          "title": "回 Crystal Court Namba",
+          "summary": "結束奈良必去日。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal%20Court%20Namba%203-6-17%20Nambanaka%20Osaka"
+          },
+          "info_status": "confirmed",
+          "end_time": "21:10",
+          "public_note": "訂房平台列 check-in after 16:00、check-out before 10:00，並列有 luggage storage；因自助住宿 / access code 需提前聯絡，寄放行李仍需出發前確認。"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "crowded",
+          "title": "奈良人潮太多",
+          "description": "保留奈良公園與東大寺，春日大社縮短成參道散步。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：奈良公園 / 奈良町釜飯午餐",
+              "food_area": [
+                {
+                  "name": "奈良公園 / 登大路周邊",
+                  "map_url": "https://maps.google.com/?q=Nara%20Park%20lunch",
+                  "reason": "東大寺和看鹿後最近。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "釜めし志津香 公園店",
+                  "specialty": "直火炊き釜飯",
+                  "why": "奈良公園附近代表性午餐，但需要抓排隊和炊飯時間。",
+                  "note": "直火炊き釜飯。奈良公園附近代表性午餐，但需要抓排隊和炊飯時間。",
+                  "map_url": "https://maps.google.com/?q=Kamameshi%20Shizuka%20Kouen%20Nara",
+                  "source": "Official Shizuka site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "かやく飯とお酒 かやく",
+                  "specialty": "かやく飯、和食午餐",
+                  "why": "靠近近鐵奈良 / きたまち，適合想避開熱門釜飯排隊時。",
+                  "note": "かやく飯、和食午餐。靠近近鐵奈良 / きたまち，適合想避開熱門釜飯排隊時。",
+                  "map_url": "https://maps.google.com/?q=Kayaku%20Meshi%20Nara",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：奈良回程後的難波晚餐",
+              "food_area": [
+                {
+                  "name": "道頓堀 / 法善寺周邊",
+                  "map_url": "https://maps.google.com/?q=Dotonbori%20Hozenji%20dinner",
+                  "reason": "從近鐵奈良回難波後最有大阪感。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "道頓堀 今井 本店",
+                  "specialty": "大阪出汁うどん",
+                  "why": "奈良走一整天後，這餐比鐵板更溫和。",
+                  "note": "大阪出汁うどん。奈良走一整天後，這餐比鐵板更溫和。",
+                  "map_url": "https://maps.google.com/?q=Dotonbori%20Imai%20Honten",
+                  "source": "Dotonbori Imai official site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "ぼんくら家＋ 中座くいだおれビル店",
+                  "specialty": "大阪お好み焼き",
+                  "why": "如果 Day4 沒吃到粉もの，可在這晚補。",
+                  "note": "大阪お好み焼き。如果 Day4 沒吃到粉もの，可在這晚補。",
+                  "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        },
+        {
+          "type": "rainy_day",
+          "title": "雨天方案",
+          "description": "把公園停留縮短，增加奈良町室內店舖時間。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：奈良公園 / 奈良町釜飯午餐",
+              "food_area": [
+                {
+                  "name": "奈良公園 / 登大路周邊",
+                  "map_url": "https://maps.google.com/?q=Nara%20Park%20lunch",
+                  "reason": "東大寺和看鹿後最近。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "釜めし志津香 公園店",
+                  "specialty": "直火炊き釜飯",
+                  "why": "奈良公園附近代表性午餐，但需要抓排隊和炊飯時間。",
+                  "note": "直火炊き釜飯。奈良公園附近代表性午餐，但需要抓排隊和炊飯時間。",
+                  "map_url": "https://maps.google.com/?q=Kamameshi%20Shizuka%20Kouen%20Nara",
+                  "source": "Official Shizuka site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "かやく飯とお酒 かやく",
+                  "specialty": "かやく飯、和食午餐",
+                  "why": "靠近近鐵奈良 / きたまち，適合想避開熱門釜飯排隊時。",
+                  "note": "かやく飯、和食午餐。靠近近鐵奈良 / きたまち，適合想避開熱門釜飯排隊時。",
+                  "map_url": "https://maps.google.com/?q=Kayaku%20Meshi%20Nara",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：奈良回程後的難波晚餐",
+              "food_area": [
+                {
+                  "name": "道頓堀 / 法善寺周邊",
+                  "map_url": "https://maps.google.com/?q=Dotonbori%20Hozenji%20dinner",
+                  "reason": "從近鐵奈良回難波後最有大阪感。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "道頓堀 今井 本店",
+                  "specialty": "大阪出汁うどん",
+                  "why": "奈良走一整天後，這餐比鐵板更溫和。",
+                  "note": "大阪出汁うどん。奈良走一整天後，這餐比鐵板更溫和。",
+                  "map_url": "https://maps.google.com/?q=Dotonbori%20Imai%20Honten",
+                  "source": "Dotonbori Imai official site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "ぼんくら家＋ 中座くいだおれビル店",
+                  "specialty": "大阪お好み焼き",
+                  "why": "如果 Day4 沒吃到粉もの，可在這晚補。",
+                  "note": "大阪お好み焼き。如果 Day4 沒吃到粉もの，可在這晚補。",
+                  "map_url": "https://maps.google.com/?q=Bonkura-ya%20PLUS%20Dotonbori",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        }
+      ],
+      "to_confirm": [
+        "出發前確認：志津香 / かやく / 今井 / ぼんくら家＋ 當日臨時店休、預約與排隊風險。"
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-10-23",
+      "title": "大阪城到天王寺夜景",
+      "base": "Crystal Court Namba",
+      "pace": "緊湊",
+      "daily_reminders": [
+        "本日主軸是大阪市內文化與夜景，不去環球影城。",
+        "Abeno Harukas 夜景適合放晚餐前後，若天氣差可改商場。"
+      ],
+      "timeline": [
+        {
+          "time": "09:00",
+          "type": "lodging",
+          "title": "Crystal Court Namba 出發",
+          "summary": "搭 Osaka Metro / JR 往大阪城公園方向。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal%20Court%20Namba%203-6-17%20Nambanaka%20Osaka"
+          },
+          "info_status": "confirmed",
+          "end_time": "09:45",
+          "public_note": "訂房平台列 check-in after 16:00、check-out before 10:00，並列有 luggage storage；因自助住宿 / access code 需提前聯絡，寄放行李仍需出發前確認。"
+        },
+        {
+          "time": "09:45",
+          "type": "sight",
+          "flag": "必玩",
+          "title": "大阪城公園與天守周邊",
+          "summary": "大阪市內文化主軸，先看城與公園，再往市中心慢慢移動。",
+          "place": {
+            "name": "大阪城",
+            "map_url": "https://maps.google.com/?q=Osaka+Castle"
+          },
+          "public_note": "大阪城天守閣官方列 2025/4/1 起開館 9:00-18:00，最終入館 17:30；本日早上安排安全。熱門景點，若要入天守建議提早到或線上購票。",
+          "info_status": "confirmed",
+          "end_time": "12:20"
+        },
+        {
+          "time": "12:20",
+          "type": "restaurant",
+          "title": "午餐：大阪城 JO-TERRACE 周邊",
+          "summary": "大阪城後就近吃，避免回難波再折返。",
+          "place": {
+            "name": "JO-TERRACE OSAKA / 森之宮周邊",
+            "map_url": "https://maps.google.com/?q=JO-TERRACE%20OSAKA%20restaurant"
+          },
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "名代 千房 JO-TERRACE OSAKA店",
+              "specialty": "大阪お好み焼き",
+              "why": "大阪城旁就能吃大阪名物，不需回道頓堀。",
+              "note": "大阪お好み焼き。大阪城旁就能吃大阪名物，不需回道頓堀。",
+              "map_url": "https://maps.google.com/?q=Nadai%20Chibo%20JO-TERRACE%20OSAKA",
+              "source": "Osaka Info / JO-TERRACE sources",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "55+カフェ JO-TERRACE OSAKA",
+              "specialty": "漢堡、三明治、咖啡與輕食",
+              "why": "如果早上走累或想吃輕一點，這間時間和位置都穩。",
+              "note": "漢堡、三明治、咖啡與輕食。如果早上走累或想吃輕一點，這間時間和位置都穩。",
+              "map_url": "https://maps.google.com/?q=55%20plus%20cafe%20JO-TERRACE%20OSAKA",
+              "source": "Official cafe menu page",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "end_time": "14:00",
+          "food_area": [
+            {
+              "name": "JO-TERRACE OSAKA",
+              "map_url": "https://maps.google.com/?q=JO-TERRACE%20OSAKA%20restaurant",
+              "reason": "大阪城後最近，午餐選擇集中。"
+            }
+          ],
+          "meal_type": "lunch",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "14:00",
+          "type": "shopping",
+          "flag": "加碼",
+          "title": "心齋橋 / 美國村短逛",
+          "summary": "同城內購物與街區散步，避免只剩觀光大點。",
+          "place": {
+            "name": "心齋橋",
+            "map_url": "https://maps.google.com/?q=Shinsaibashi+Osaka"
+          },
+          "info_status": "estimated",
+          "end_time": "16:40"
+        },
+        {
+          "time": "16:40",
+          "type": "transport",
+          "title": "難波 / 心齋橋 -> 天王寺",
+          "summary": "搭 Osaka Metro 前往天王寺 / 阿倍野。",
+          "place": {
+            "name": "天王寺站",
+            "map_url": "https://maps.google.com/?q=Tennoji+Station"
+          },
+          "info_status": "estimated",
+          "end_time": "17:20"
+        },
+        {
+          "time": "17:20",
+          "type": "sight",
+          "flag": "私心",
+          "title": "Abeno Harukas 300 夜景",
+          "summary": "從黃昏接到夜景，滿足夜景偏好。",
+          "place": {
+            "name": "HARUKAS 300",
+            "map_url": "https://maps.google.com/?q=Harukas+300"
+          },
+          "public_note": "官方服務資訊列 Harukas 300 展望台 9:00-22:00、全年無休，但可能無預告變更；本日黃昏到夜景安排安全。",
+          "info_status": "confirmed",
+          "end_time": "19:10"
+        },
+        {
+          "time": "19:10",
+          "type": "restaurant",
+          "title": "晚餐：Harukas 夜景後的天王寺晚餐",
+          "summary": "看完 Harukas 後不跨區，在阿倍野 / 天王寺吃。",
+          "place": {
+            "name": "Abeno Harukas Dining / 天王寺周邊",
+            "map_url": "https://maps.google.com/?q=Abeno%20Harukas%20Dining%20restaurant"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "20:50",
+          "food_area": [
+            {
+              "name": "Abeno Harukas Dining 12-14F",
+              "map_url": "https://maps.google.com/?q=Abeno%20Harukas%20Dining%20restaurant",
+              "reason": "看完夜景後最省移動。"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "アロハテーブル あべのハルカスダイニング",
+              "specialty": "高樓景觀餐廳、輕鬆晚餐",
+              "why": "和夜景行程情緒一致，營業資訊清楚。",
+              "note": "高樓景觀餐廳、輕鬆晚餐。和夜景行程情緒一致，營業資訊清楚。",
+              "map_url": "https://maps.google.com/?q=Aloha%20Table%20Abeno%20Harukas%20Dining",
+              "source": "Official restaurant site",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "千里しゃぶちん あべのハルカス店",
+              "specialty": "一人鍋 / 涮涮鍋",
+              "why": "想吃熱食、坐下休息時比咖啡餐廳更像晚餐。",
+              "note": "一人鍋 / 涮涮鍋。想吃熱食、坐下休息時比咖啡餐廳更像晚餐。",
+              "map_url": "https://maps.google.com/?q=Senri%20Shabuchin%20Abeno%20Harukas",
+              "source": "Official shop page",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "meal_type": "dinner",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "20:50",
+          "type": "transport",
+          "title": "天王寺 -> 難波",
+          "summary": "回難波住宿區域。",
+          "place": {
+            "name": "難波",
+            "map_url": "https://maps.google.com/?q=Namba+Osaka"
+          },
+          "info_status": "estimated",
+          "end_time": "21:20"
+        },
+        {
+          "time": "21:20",
+          "type": "lodging",
+          "title": "回 Crystal Court Namba",
+          "summary": "結束大阪市內與夜景日。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal%20Court%20Namba%203-6-17%20Nambanaka%20Osaka"
+          },
+          "info_status": "confirmed",
+          "end_time": "21:50",
+          "public_note": "訂房平台列 check-in after 16:00、check-out before 10:00，並列有 luggage storage；因自助住宿 / access code 需提前聯絡，寄放行李仍需出發前確認。"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "bad_weather",
+          "title": "天氣不適合夜景",
+          "description": "取消 Harukas 展望台，改天王寺商場與室內晚餐。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：大阪城 JO-TERRACE 周邊",
+              "food_area": [
+                {
+                  "name": "JO-TERRACE OSAKA",
+                  "map_url": "https://maps.google.com/?q=JO-TERRACE%20OSAKA%20restaurant",
+                  "reason": "大阪城後最近，午餐選擇集中。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "名代 千房 JO-TERRACE OSAKA店",
+                  "specialty": "大阪お好み焼き",
+                  "why": "大阪城旁就能吃大阪名物，不需回道頓堀。",
+                  "note": "大阪お好み焼き。大阪城旁就能吃大阪名物，不需回道頓堀。",
+                  "map_url": "https://maps.google.com/?q=Nadai%20Chibo%20JO-TERRACE%20OSAKA",
+                  "source": "Osaka Info / JO-TERRACE sources",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "55+カフェ JO-TERRACE OSAKA",
+                  "specialty": "漢堡、三明治、咖啡與輕食",
+                  "why": "如果早上走累或想吃輕一點，這間時間和位置都穩。",
+                  "note": "漢堡、三明治、咖啡與輕食。如果早上走累或想吃輕一點，這間時間和位置都穩。",
+                  "map_url": "https://maps.google.com/?q=55%20plus%20cafe%20JO-TERRACE%20OSAKA",
+                  "source": "Official cafe menu page",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：Harukas 夜景後的天王寺晚餐",
+              "food_area": [
+                {
+                  "name": "Abeno Harukas Dining 12-14F",
+                  "map_url": "https://maps.google.com/?q=Abeno%20Harukas%20Dining%20restaurant",
+                  "reason": "看完夜景後最省移動。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "アロハテーブル あべのハルカスダイニング",
+                  "specialty": "高樓景觀餐廳、輕鬆晚餐",
+                  "why": "和夜景行程情緒一致，營業資訊清楚。",
+                  "note": "高樓景觀餐廳、輕鬆晚餐。和夜景行程情緒一致，營業資訊清楚。",
+                  "map_url": "https://maps.google.com/?q=Aloha%20Table%20Abeno%20Harukas%20Dining",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "千里しゃぶちん あべのハルカス店",
+                  "specialty": "一人鍋 / 涮涮鍋",
+                  "why": "想吃熱食、坐下休息時比咖啡餐廳更像晚餐。",
+                  "note": "一人鍋 / 涮涮鍋。想吃熱食、坐下休息時比咖啡餐廳更像晚餐。",
+                  "map_url": "https://maps.google.com/?q=Senri%20Shabuchin%20Abeno%20Harukas",
+                  "source": "Official shop page",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        },
+        {
+          "type": "not_enough_time",
+          "title": "時間不夠",
+          "description": "保留大阪城與 Harukas，中間購物縮短。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：大阪城 JO-TERRACE 周邊",
+              "food_area": [
+                {
+                  "name": "JO-TERRACE OSAKA",
+                  "map_url": "https://maps.google.com/?q=JO-TERRACE%20OSAKA%20restaurant",
+                  "reason": "大阪城後最近，午餐選擇集中。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "名代 千房 JO-TERRACE OSAKA店",
+                  "specialty": "大阪お好み焼き",
+                  "why": "大阪城旁就能吃大阪名物，不需回道頓堀。",
+                  "note": "大阪お好み焼き。大阪城旁就能吃大阪名物，不需回道頓堀。",
+                  "map_url": "https://maps.google.com/?q=Nadai%20Chibo%20JO-TERRACE%20OSAKA",
+                  "source": "Osaka Info / JO-TERRACE sources",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "55+カフェ JO-TERRACE OSAKA",
+                  "specialty": "漢堡、三明治、咖啡與輕食",
+                  "why": "如果早上走累或想吃輕一點，這間時間和位置都穩。",
+                  "note": "漢堡、三明治、咖啡與輕食。如果早上走累或想吃輕一點，這間時間和位置都穩。",
+                  "map_url": "https://maps.google.com/?q=55%20plus%20cafe%20JO-TERRACE%20OSAKA",
+                  "source": "Official cafe menu page",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "晚餐：Harukas 夜景後的天王寺晚餐",
+              "food_area": [
+                {
+                  "name": "Abeno Harukas Dining 12-14F",
+                  "map_url": "https://maps.google.com/?q=Abeno%20Harukas%20Dining%20restaurant",
+                  "reason": "看完夜景後最省移動。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "アロハテーブル あべのハルカスダイニング",
+                  "specialty": "高樓景觀餐廳、輕鬆晚餐",
+                  "why": "和夜景行程情緒一致，營業資訊清楚。",
+                  "note": "高樓景觀餐廳、輕鬆晚餐。和夜景行程情緒一致，營業資訊清楚。",
+                  "map_url": "https://maps.google.com/?q=Aloha%20Table%20Abeno%20Harukas%20Dining",
+                  "source": "Official restaurant site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "千里しゃぶちん あべのハルカス店",
+                  "specialty": "一人鍋 / 涮涮鍋",
+                  "why": "想吃熱食、坐下休息時比咖啡餐廳更像晚餐。",
+                  "note": "一人鍋 / 涮涮鍋。想吃熱食、坐下休息時比咖啡餐廳更像晚餐。",
+                  "map_url": "https://maps.google.com/?q=Senri%20Shabuchin%20Abeno%20Harukas",
+                  "source": "Official shop page",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        }
+      ],
+      "to_confirm": [
+        "出發前確認：JO-TERRACE / Harukas Dining 當日營業、訂位與排隊風險。"
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-10-24",
+      "title": "大阪港一日遊與前往關西機場",
+      "base": "Crystal Court Namba",
+      "pace": "適中",
+      "daily_reminders": [
+        "23:30 關西機場出境，19:30 前仍要離開難波 / 市區前往機場。",
+        "大阪港日以海遊館、天保山與市場街區為主，路線維持在大阪港與難波之間。",
+        "若海遊館票券或營業時間不合，直接改難波收尾購物。"
+      ],
+      "timeline": [
+        {
+          "time": "09:30",
+          "end_time": "10:10",
+          "type": "lodging",
+          "title": "Crystal Court Namba check-out / 寄放行李",
+          "summary": "先處理行李，最後一天只帶輕便包移動。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal%20Court%20Namba%203-6-17%20Nambanaka%20Osaka"
+          },
+          "public_note": "Crystal Court Namba 訂房平台列 luggage storage，但自助住宿可能需事前聯絡；若不可寄放，改用 Namba Station coin lockers / luggage service。",
+          "info_status": "needs_confirmation"
+        },
+        {
+          "time": "10:10",
+          "end_time": "10:55",
+          "type": "transport",
+          "title": "難波 -> 大阪港",
+          "summary": "搭 Osaka Metro 前往大阪港 / 天保山區域。",
+          "place": {
+            "name": "大阪港站",
+            "map_url": "https://maps.google.com/?q=Osakako%20Station"
+          },
+          "public_note": "實際路線與轉乘時間出發前再查。",
+          "info_status": "estimated"
+        },
+        {
+          "time": "11:00",
+          "end_time": "13:10",
+          "type": "sight",
+          "title": "大阪海遊館",
+          "summary": "大阪港日主軸，安排成最後一天的重點景點。",
+          "flag": "必玩",
+          "place": {
+            "name": "大阪海遊館",
+            "map_url": "https://maps.google.com/?q=Osaka%20Aquarium%20Kaiyukan"
+          },
+          "public_note": "海遊館官方提供營業時間 / 休館日 calendar 與 WEB ticket；2026/10/24 calendar 尚需接近出發前確認。建議 calendar 開放後購買 11:00 左右入館時段。",
+          "info_status": "needs_confirmation"
+        },
+        {
+          "time": "13:10",
+          "end_time": "14:20",
+          "type": "restaurant",
+          "title": "午餐：天保山 Marketplace / 大阪港周邊",
+          "summary": "大阪港日午餐在海遊館旁邊解決，重點是不用再移動。",
+          "place": {
+            "name": "天保山 Marketplace / なにわ食いしんぼ横丁",
+            "map_url": "https://maps.google.com/?q=Tempozan%20Marketplace%20restaurant"
+          },
+          "food_area": [
+            {
+              "name": "天保山 Marketplace 3F 餐廳",
+              "map_url": "https://maps.google.com/?q=Tempozan%20Marketplace%20restaurant",
+              "reason": "海遊館旁、座位型餐廳比較穩。"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "がんこ 天保山店",
+              "specialty": "壽司、和食、海鮮與定食",
+              "why": "座位多、在 Marketplace 內，適合海遊館後穩定午餐。",
+              "note": "壽司、和食、海鮮與定食。座位多、在 Marketplace 內，適合海遊館後穩定午餐。",
+              "map_url": "https://maps.google.com/?q=Ganko%20Tempozan%20Osaka",
+              "source": "Osaka Info / Kaiyukan Marketplace shop page",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "鶴橋風月 天保山店",
+              "specialty": "大阪お好み焼き、焼きそば",
+              "why": "想把大阪港日做得更大阪味時可選，座位也比小吃攤穩。",
+              "note": "大阪お好み焼き、焼きそば。想把大阪港日做得更大阪味時可選，座位也比小吃攤穩。",
+              "map_url": "https://maps.google.com/?q=Tsuruhashi%20Fugetsu%20Tempozan",
+              "source": "Kaiyukan Marketplace official shop page",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "meal_type": "lunch",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "14:20",
+          "end_time": "15:20",
+          "type": "shopping",
+          "title": "天保山 Marketplace / 摩天輪周邊",
+          "summary": "午餐後在天保山區域逛街、買伴手禮或看港區風景。",
+          "flag": "加碼",
+          "place": {
+            "name": "天保山 Marketplace",
+            "map_url": "https://maps.google.com/?q=Tempozan%20Marketplace"
+          },
+          "public_note": "Marketplace 與摩天輪周邊作為海遊館後的彈性區；若海遊館停留較久或天氣差，直接縮短回難波。",
+          "info_status": "needs_confirmation"
+        },
+        {
+          "time": "15:20",
+          "end_time": "16:20",
+          "type": "sight",
+          "title": "大阪港海邊散步",
+          "summary": "在港區補一段輕鬆散步，讓最後一天不是純室內。",
+          "flag": "私心",
+          "place": {
+            "name": "大阪港",
+            "map_url": "https://maps.google.com/?q=Osaka%20Port%20Tempozan"
+          },
+          "public_note": "天氣差就縮短，直接回難波取行李。",
+          "info_status": "estimated"
+        },
+        {
+          "time": "16:20",
+          "end_time": "17:10",
+          "type": "transport",
+          "title": "大阪港 -> 難波",
+          "summary": "回難波取行李，保留機場前整理時間。",
+          "place": {
+            "name": "難波",
+            "map_url": "https://maps.google.com/?q=Namba%20Osaka"
+          },
+          "info_status": "estimated"
+        },
+        {
+          "time": "17:10",
+          "end_time": "18:00",
+          "type": "break",
+          "title": "回難波取行李與整理",
+          "summary": "取回行李，整理伴手禮與機場移動。",
+          "place": {
+            "name": "難波",
+            "map_url": "https://maps.google.com/?q=Namba%20Osaka"
+          },
+          "info_status": "estimated"
+        },
+        {
+          "time": "18:00",
+          "end_time": "19:15",
+          "type": "restaurant",
+          "title": "早晚餐：難波 / 機場前簡單吃",
+          "summary": "離開市區前先吃，避免把晚餐壓到出境後。",
+          "place": {
+            "name": "難波站 / 關西機場餐廳區",
+            "map_url": "https://maps.google.com/?q=Namba%20Kansai%20Airport%20restaurant"
+          },
+          "food_area": [
+            {
+              "name": "難波站周邊快吃區域",
+              "map_url": "https://maps.google.com/?q=Namba%20Station%20dinner",
+              "reason": "取行李後最省時間。"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "道頓堀 今井 なんば駅周邊分店 / 本店",
+              "specialty": "大阪うどん",
+              "why": "離開前吃溫和穩定的一餐，不會太重。",
+              "note": "大阪うどん。離開前吃溫和穩定的一餐，不會太重。",
+              "map_url": "https://maps.google.com/?q=Dotonbori%20Imai%20Namba%20Osaka",
+              "source": "Dotonbori Imai official site",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "自由軒 難波本店",
+              "specialty": "大阪名物カレー",
+              "why": "若想快速補大阪老店，可在難波吃完再去機場。",
+              "note": "大阪名物カレー。若想快速補大阪老店，可在難波吃完再去機場。",
+              "map_url": "https://maps.google.com/?q=Jiyuken%20Namba%20Honten",
+              "source": "Jiyuken official site",
+              "info_status": "needs_confirmation"
+            }
+          ],
+          "info_status": "needs_confirmation",
+          "meal_type": "dinner",
+          "public_note": "目前公開營業時間與固定店休日已初步確認；2026/10 當日臨時店休、訂位狀態與排隊風險仍以出發前確認為準。"
+        },
+        {
+          "time": "19:30",
+          "end_time": "20:30",
+          "type": "transport",
+          "title": "難波 -> 關西機場",
+          "summary": "搭南海電鐵前往關西機場；Rapi:t 約 34-39 分，Airport Express 約 43 分。",
+          "place": {
+            "name": "關西國際機場",
+            "map_url": "https://maps.google.com/?q=Kansai%20International%20Airport"
+          },
+          "public_note": "南海官方與關西機場資訊列 Rapi:t 連接難波與關西機場，約 34-39 分；2026/10/24 實際班次與指定席需出發前確認。",
+          "info_status": "needs_confirmation"
+        },
+        {
+          "time": "20:30",
+          "end_time": "21:00",
+          "type": "transport",
+          "title": "抵達關西機場，辦理出境",
+          "summary": "預留 check-in、托運、安檢與出境時間。",
+          "place": {
+            "name": "關西國際機場",
+            "map_url": "https://maps.google.com/?q=Kansai%20International%20Airport"
+          },
+          "info_status": "estimated"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "ticket_or_weather",
+          "title": "海遊館票券或天氣不合",
+          "description": "取消大阪港一日遊，改回難波收尾購物與室內餐廳。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：天保山 Marketplace / 大阪港周邊",
+              "food_area": [
+                {
+                  "name": "天保山 Marketplace 3F 餐廳",
+                  "map_url": "https://maps.google.com/?q=Tempozan%20Marketplace%20restaurant",
+                  "reason": "海遊館旁、座位型餐廳比較穩。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "がんこ 天保山店",
+                  "specialty": "壽司、和食、海鮮與定食",
+                  "why": "座位多、在 Marketplace 內，適合海遊館後穩定午餐。",
+                  "note": "壽司、和食、海鮮與定食。座位多、在 Marketplace 內，適合海遊館後穩定午餐。",
+                  "map_url": "https://maps.google.com/?q=Ganko%20Tempozan%20Osaka",
+                  "source": "Osaka Info / Kaiyukan Marketplace shop page",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "鶴橋風月 天保山店",
+                  "specialty": "大阪お好み焼き、焼きそば",
+                  "why": "想把大阪港日做得更大阪味時可選，座位也比小吃攤穩。",
+                  "note": "大阪お好み焼き、焼きそば。想把大阪港日做得更大阪味時可選，座位也比小吃攤穩。",
+                  "map_url": "https://maps.google.com/?q=Tsuruhashi%20Fugetsu%20Tempozan",
+                  "source": "Kaiyukan Marketplace official shop page",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "早晚餐：難波 / 機場前簡單吃",
+              "food_area": [
+                {
+                  "name": "難波站周邊快吃區域",
+                  "map_url": "https://maps.google.com/?q=Namba%20Station%20dinner",
+                  "reason": "取行李後最省時間。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "道頓堀 今井 なんば駅周邊分店 / 本店",
+                  "specialty": "大阪うどん",
+                  "why": "離開前吃溫和穩定的一餐，不會太重。",
+                  "note": "大阪うどん。離開前吃溫和穩定的一餐，不會太重。",
+                  "map_url": "https://maps.google.com/?q=Dotonbori%20Imai%20Namba%20Osaka",
+                  "source": "Dotonbori Imai official site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "自由軒 難波本店",
+                  "specialty": "大阪名物カレー",
+                  "why": "若想快速補大阪老店，可在難波吃完再去機場。",
+                  "note": "大阪名物カレー。若想快速補大阪老店，可在難波吃完再去機場。",
+                  "map_url": "https://maps.google.com/?q=Jiyuken%20Namba%20Honten",
+                  "source": "Jiyuken official site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        },
+        {
+          "type": "not_enough_time",
+          "title": "時間不夠",
+          "description": "保留海遊館與午餐，取消港邊散步，16:20 前回難波。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：天保山 Marketplace / 大阪港周邊",
+              "food_area": [
+                {
+                  "name": "天保山 Marketplace 3F 餐廳",
+                  "map_url": "https://maps.google.com/?q=Tempozan%20Marketplace%20restaurant",
+                  "reason": "海遊館旁、座位型餐廳比較穩。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "がんこ 天保山店",
+                  "specialty": "壽司、和食、海鮮與定食",
+                  "why": "座位多、在 Marketplace 內，適合海遊館後穩定午餐。",
+                  "note": "壽司、和食、海鮮與定食。座位多、在 Marketplace 內，適合海遊館後穩定午餐。",
+                  "map_url": "https://maps.google.com/?q=Ganko%20Tempozan%20Osaka",
+                  "source": "Osaka Info / Kaiyukan Marketplace shop page",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "鶴橋風月 天保山店",
+                  "specialty": "大阪お好み焼き、焼きそば",
+                  "why": "想把大阪港日做得更大阪味時可選，座位也比小吃攤穩。",
+                  "note": "大阪お好み焼き、焼きそば。想把大阪港日做得更大阪味時可選，座位也比小吃攤穩。",
+                  "map_url": "https://maps.google.com/?q=Tsuruhashi%20Fugetsu%20Tempozan",
+                  "source": "Kaiyukan Marketplace official shop page",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            },
+            {
+              "meal_title": "早晚餐：難波 / 機場前簡單吃",
+              "food_area": [
+                {
+                  "name": "難波站周邊快吃區域",
+                  "map_url": "https://maps.google.com/?q=Namba%20Station%20dinner",
+                  "reason": "取行李後最省時間。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "道頓堀 今井 なんば駅周邊分店 / 本店",
+                  "specialty": "大阪うどん",
+                  "why": "離開前吃溫和穩定的一餐，不會太重。",
+                  "note": "大阪うどん。離開前吃溫和穩定的一餐，不會太重。",
+                  "map_url": "https://maps.google.com/?q=Dotonbori%20Imai%20Namba%20Osaka",
+                  "source": "Dotonbori Imai official site",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "自由軒 難波本店",
+                  "specialty": "大阪名物カレー",
+                  "why": "若想快速補大阪老店，可在難波吃完再去機場。",
+                  "note": "大阪名物カレー。若想快速補大阪老店，可在難波吃完再去機場。",
+                  "map_url": "https://maps.google.com/?q=Jiyuken%20Namba%20Honten",
+                  "source": "Jiyuken official site",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Current public hours and fixed closure patterns checked; final 2026-10 operating status still requires departure check."
+            }
+          ]
+        }
+      ],
+      "to_confirm": [
+        "出發前確認：海遊館 2026/10/24 calendar，購買 11:00 左右 WEB ticket。",
+        "出發前確認：Crystal Court Namba check-out 後寄放行李；不可寄放時改難波車站置物櫃。",
+        "10/24 南海電鐵實際班次與是否購買 Rapi:t 指定席。",
+        "出發前確認：天保山 Marketplace / がんこ / 鶴橋風月 / 今井 / 自由軒 當日營業與晚餐時間。"
+      ]
+    }
+  ],
+  "candidate_days": [
+    {
+      "id": "candidate-okayama-naoshima",
+      "title": "特色候選 - 直島藝術島一日",
+      "base": "東橫 INN 岡山站東口",
+      "daily_reminders": [
+        "特色候選行程，適合替換岡山市區日；美術館預約與休館日必須另查。",
+        "船班是本日風險，回程不要抓最後一班。"
+      ],
+      "timeline": [
+        {
+          "time": "08:00",
+          "type": "lodging",
+          "title": "岡山站周邊出發",
+          "summary": "從岡山站往宇野港移動，再搭船到直島。",
+          "place": {
+            "name": "岡山站",
+            "map_url": "https://maps.google.com/?q=Okayama+Station"
+          },
+          "info_status": "estimated",
+          "end_time": "10:00"
+        },
+        {
+          "time": "10:00",
+          "type": "transport",
+          "title": "宇野港 -> 直島宮浦港",
+          "summary": "官方觀光資訊列宇野到宮浦港船程約 20 分，單程 370 日圓。",
+          "place": {
+            "name": "宮浦港",
+            "map_url": "https://maps.google.com/?q=Miyanoura+Port+Naoshima"
+          },
+          "public_note": "船班可能因季節或營運調整，正式替換前必須重查。",
+          "info_status": "confirmed",
+          "end_time": "10:40"
+        },
+        {
+          "time": "10:40",
+          "type": "sight",
+          "flag": "私心",
+          "title": "直島港口與藝術散步",
+          "summary": "港口作品、島上散步與美術館擇一重點，不把島排成打卡清單。",
+          "place": {
+            "name": "直島",
+            "map_url": "https://maps.google.com/?q=Naoshima"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "17:35"
+        },
+        {
+          "time": "17:35",
+          "type": "transport",
+          "title": "直島 -> 宇野港 -> 岡山站",
+          "summary": "搭傍晚船班回宇野，再返回岡山站。",
+          "place": {
+            "name": "宇野港",
+            "map_url": "https://maps.google.com/?q=Uno+Port"
+          },
+          "public_note": "不要壓最後一班船，避免回岡山太晚。",
+          "info_status": "needs_confirmation",
+          "end_time": "20:30"
+        },
+        {
+          "time": "20:30",
+          "type": "lodging",
+          "title": "回東橫 INN 岡山站東口",
+          "summary": "結束直島候選日。",
+          "place": {
+            "name": "東橫 INN 岡山站東口",
+            "map_url": "https://maps.google.com/?q=Toyoko+INN+Okayama-eki+Higashi-guchi"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "21:00"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "schedule_risk",
+          "title": "船班或美術館不合",
+          "description": "不要硬去直島，改回岡山市區後樂園 / 吉備津線。"
+        }
+      ],
+      "to_confirm": [
+        "直島美術館休館日與是否需要預約。",
+        "宇野港往返直島的 2026/10 當日船班。"
+      ]
+    },
+    {
+      "id": "candidate-osaka-umeda",
+      "title": "特色候選 - 中之島到梅田空中庭園",
+      "base": "Crystal Court Namba",
+      "daily_reminders": [
+        "適合替換大阪城 / 天王寺日，整體更偏城市散步與夜景。",
+        "梅田地下街容易迷路，回程要保留餘裕。"
+      ],
+      "timeline": [
+        {
+          "time": "09:30",
+          "type": "lodging",
+          "title": "Crystal Court Namba 出發",
+          "summary": "往中之島方向移動，開始大阪城市散步。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal+Court+Namba"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "10:20"
+        },
+        {
+          "time": "10:20",
+          "type": "sight",
+          "flag": "私心",
+          "title": "中之島建築與水邊散步",
+          "summary": "比道頓堀安靜很多的城市面，適合補一段大阪的成熟感。",
+          "place": {
+            "name": "中之島",
+            "map_url": "https://maps.google.com/?q=Nakanoshima+Osaka"
+          },
+          "info_status": "estimated",
+          "end_time": "13:00"
+        },
+        {
+          "time": "13:00",
+          "type": "restaurant",
+          "title": "午餐：北浜 / 中之島周邊",
+          "summary": "主餐廳與備案餐廳同一時段擇一。",
+          "place": {
+            "name": "北浜",
+            "map_url": "https://maps.google.com/?q=Kitahama+Osaka+restaurant"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "16:30",
+          "meal_type": "lunch",
+          "food_area": [
+            {
+              "name": "北浜 / 中之島水邊咖啡餐廳區",
+              "map_url": "https://maps.google.com/?q=Kitahama%20Nakanoshima%20Osaka%20lunch",
+              "reason": "接在中之島散步後最順，適合城市散步型午餐。"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "GARB weeks",
+              "specialty": "中之島水邊義式 / cafe lunch",
+              "why": "位置貼近中之島散步路線，適合不趕路的城市午餐。",
+              "note": "中之島水邊義式 / cafe lunch。位置貼近中之島散步路線，適合不趕路的城市午餐。",
+              "map_url": "https://maps.google.com/?q=GARB%20weeks%20Osaka",
+              "source": "manual restaurant shortlist",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "北浜レトロ",
+              "specialty": "英式茶館、三明治與甜點",
+              "why": "若午餐想偏咖啡廳體驗，可把它當輕食午餐。",
+              "note": "英式茶館、三明治與甜點。若午餐想偏咖啡廳體驗，可把它當輕食午餐。",
+              "map_url": "https://maps.google.com/?q=Kitahama%20Retro%20Osaka",
+              "source": "manual restaurant shortlist",
+              "info_status": "needs_confirmation"
+            }
+          ]
+        },
+        {
+          "time": "16:30",
+          "type": "sight",
+          "flag": "必玩",
+          "title": "梅田藍天大廈空中庭園展望台",
+          "summary": "黃昏接夜景的城市展望候選。",
+          "place": {
+            "name": "梅田藍天大廈空中庭園展望台",
+            "map_url": "https://maps.google.com/?q=Umeda+Sky+Building+Kuchu+Teien+Observatory"
+          },
+          "public_note": "官方英文頁列 9:30-22:30，最後入場 22:00。",
+          "info_status": "confirmed",
+          "end_time": "19:20"
+        },
+        {
+          "time": "19:20",
+          "type": "restaurant",
+          "title": "晚餐：梅田周邊",
+          "summary": "看完夜景後在梅田吃晚餐，再回難波。",
+          "place": {
+            "name": "梅田",
+            "map_url": "https://maps.google.com/?q=Umeda+restaurant"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "21:20",
+          "meal_type": "dinner",
+          "food_area": [
+            {
+              "name": "梅田藍天大廈 / 新梅田食道街周邊",
+              "map_url": "https://maps.google.com/?q=Umeda%20Sky%20Building%20dinner",
+              "reason": "看完空中庭園後不用大移動。"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "きじ 本店",
+              "specialty": "梅田代表性大阪燒",
+              "why": "符合大阪在地美食，適合把候選日收在梅田老店感。",
+              "note": "梅田代表性大阪燒。符合大阪在地美食，適合把候選日收在梅田老店感。",
+              "map_url": "https://maps.google.com/?q=Kiji%20Umeda%20Okonomiyaki",
+              "source": "manual restaurant shortlist",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "インデアンカレー 三番街店",
+              "specialty": "大阪老牌咖哩",
+              "why": "若晚餐時間被壓縮，這間比正式餐廳更快。",
+              "note": "大阪老牌咖哩。若晚餐時間被壓縮，這間比正式餐廳更快。",
+              "map_url": "https://maps.google.com/?q=Indian%20Curry%20Sanbangai%20Osaka",
+              "source": "manual restaurant shortlist",
+              "info_status": "needs_confirmation"
+            }
+          ]
+        },
+        {
+          "time": "21:20",
+          "type": "lodging",
+          "title": "回 Crystal Court Namba",
+          "summary": "結束梅田候選日。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal+Court+Namba"
+          },
+          "info_status": "needs_confirmation",
+          "end_time": "21:50"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "bad_weather",
+          "title": "天氣不適合展望台",
+          "description": "保留中之島與梅田商場，展望台取消。",
+          "meal_adjustments": [
+            {
+              "meal_title": "午餐：北浜 / 中之島周邊",
+              "food_area": [
+                {
+                  "name": "北浜 / 中之島水邊咖啡餐廳區",
+                  "map_url": "https://maps.google.com/?q=Kitahama%20Nakanoshima%20Osaka%20lunch",
+                  "reason": "接在中之島散步後最順，適合城市散步型午餐。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "GARB weeks",
+                  "specialty": "中之島水邊義式 / cafe lunch",
+                  "why": "位置貼近中之島散步路線，適合不趕路的城市午餐。",
+                  "note": "中之島水邊義式 / cafe lunch。位置貼近中之島散步路線，適合不趕路的城市午餐。",
+                  "map_url": "https://maps.google.com/?q=GARB%20weeks%20Osaka",
+                  "source": "manual restaurant shortlist",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "北浜レトロ",
+                  "specialty": "英式茶館、三明治與甜點",
+                  "why": "若午餐想偏咖啡廳體驗，可把它當輕食午餐。",
+                  "note": "英式茶館、三明治與甜點。若午餐想偏咖啡廳體驗，可把它當輕食午餐。",
+                  "map_url": "https://maps.google.com/?q=Kitahama%20Retro%20Osaka",
+                  "source": "manual restaurant shortlist",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Meal options include one area link plus two named restaurant links."
+            },
+            {
+              "meal_title": "晚餐：梅田周邊",
+              "food_area": [
+                {
+                  "name": "梅田藍天大廈 / 新梅田食道街周邊",
+                  "map_url": "https://maps.google.com/?q=Umeda%20Sky%20Building%20dinner",
+                  "reason": "看完空中庭園後不用大移動。"
+                }
+              ],
+              "alternatives": [
+                {
+                  "label": "主推",
+                  "name": "きじ 本店",
+                  "specialty": "梅田代表性大阪燒",
+                  "why": "符合大阪在地美食，適合把候選日收在梅田老店感。",
+                  "note": "梅田代表性大阪燒。符合大阪在地美食，適合把候選日收在梅田老店感。",
+                  "map_url": "https://maps.google.com/?q=Kiji%20Umeda%20Okonomiyaki",
+                  "source": "manual restaurant shortlist",
+                  "info_status": "needs_confirmation"
+                },
+                {
+                  "label": "備案",
+                  "name": "インデアンカレー 三番街店",
+                  "specialty": "大阪老牌咖哩",
+                  "why": "若晚餐時間被壓縮，這間比正式餐廳更快。",
+                  "note": "大阪老牌咖哩。若晚餐時間被壓縮，這間比正式餐廳更快。",
+                  "map_url": "https://maps.google.com/?q=Indian%20Curry%20Sanbangai%20Osaka",
+                  "source": "manual restaurant shortlist",
+                  "info_status": "needs_confirmation"
+                }
+              ],
+              "note": "Meal options include one area link plus two named restaurant links."
+            }
+          ]
+        }
+      ],
+      "to_confirm": [
+        "空中庭園 2026/10 當日營業時間與票券。",
+        "梅田晚餐主餐廳與備案餐廳。"
+      ]
+    }
+  ],
+  "notes": [
+    "精確位置請用每個行程點的 Google Maps 按鈕開啟。",
+    "所有 2026/10 的交通班次、營業時間、餐廳臨時店休與票券狀態都要在出發前再確認。",
+    "旅途中如果某個點不對味，直接往下一個同區域行程點移動。",
+    "Day 2 以倉敷美觀地區街區散步與 Outlet 為主。",
+    "Day 3 午餐備案使用岡山站內的吾妻寿司 さんすて岡山店。",
+    "Day 4 午餐備案使用ぼんくら家＋ 中座くいだおれビル店。",
+    "Crystal Court Namba 若無法寄放行李，Day 4 / Day 7 使用難波車站置物櫃或行李寄放服務。",
+    "Day 7 海遊館以 11:00 左右入館為目標，calendar 開放後再買 WEB ticket。"
+  ],
+  "public_safety": {
+    "checked": true
+  }
+}

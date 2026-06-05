@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Job Itinerary</title>
+    <link rel="stylesheet" href="./styles.css?v=20260605-meal-collapse">
+  </head>
+  <body class="transport-hidden">
+    <div class="app-shell">
+      <header class="trip-hero">
+        <div class="trip-kicker" id="tripDestination">Travel</div>
+        <h1 id="tripTitle">Loading itinerary</h1>
+        <div class="trip-meta" id="tripDates"></div>
+        <div class="trip-stats" id="tripStats"></div>
+        <details class="important-panel" id="importantPanel">
+          <summary>重要提醒</summary>
+          <ul id="importantReminders"></ul>
+        </details>
+      </header>
+
+      <main>
+        <section class="summary-band" aria-labelledby="summaryHeading">
+          <div class="section-label">Overview</div>
+          <h2 id="summaryHeading">行程概要</h2>
+          <nav class="day-jump-list" id="summaryDays" aria-label="行程概要"></nav>
+        </section>
+
+        <section class="days-band" aria-labelledby="daysHeading">
+          <div class="section-label">Timeline</div>
+          <div class="section-title-row">
+            <h2 id="daysHeading">日行程細節</h2>
+            <button class="transport-toggle" id="transportToggle" type="button" aria-pressed="false">
+              顯示交通
+            </button>
+          </div>
+          <div id="days"></div>
+        </section>
+
+        <section class="candidate-band" id="candidateSection" aria-labelledby="candidateHeading">
+          <div class="section-label">Extra Routes</div>
+          <h2 id="candidateHeading">候選整天行程</h2>
+          <div id="candidateDays"></div>
+        </section>
+
+        <section class="notes-band" id="notesSection" aria-labelledby="notesHeading">
+          <div class="section-label">Notes</div>
+          <h2 id="notesHeading">備註</h2>
+          <ul id="tripNotes"></ul>
+        </section>
+      </main>
+    </div>
+
+    <template id="dayTemplate">
+      <article class="day-section">
+        <div class="day-head">
+          <div>
+            <p class="day-date"></p>
+            <h3></h3>
+          </div>
+          <div class="day-tags">
+            <div class="day-base"></div>
+            <div class="day-pace"></div>
+          </div>
+        </div>
+        <ul class="daily-reminders"></ul>
+        <div class="timeline"></div>
+        <div class="day-footer">
+          <div class="fallbacks"></div>
+          <div class="to-confirm"></div>
+        </div>
+      </article>
+    </template>
+
+    <template id="timelineTemplate">
+      <article class="timeline-item">
+        <div class="time-block"></div>
+        <div class="timeline-icon" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <div class="item-topline">
+            <span class="item-type"></span>
+            <span class="item-flag"></span>
+          </div>
+          <h4></h4>
+          <p class="item-summary"></p>
+          <p class="item-note"></p>
+          <div class="meal-options"></div>
+          <a class="map-button" target="_blank" rel="noreferrer">查看地點</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="./app.js?v=20260605-meal-collapse"></script>
+  </body>
+</html>
