@@ -69,6 +69,23 @@ a {
   font-weight: 700;
 }
 
+.hero-cover {
+  width: min(420px, 100%);
+  margin: 18px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.hero-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 853 / 1280;
+}
+
 .trip-stats {
   display: flex;
   flex-wrap: wrap;
