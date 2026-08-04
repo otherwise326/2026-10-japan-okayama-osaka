@@ -163,6 +163,43 @@ function renderMealOptions(container, options) {
   container.appendChild(details);
 }
 
+function renderExploreLinks(container, resources) {
+  if (!resources || !resources.length) return;
+  const group = document.createElement("div");
+  group.className = "explore-links";
+
+  for (const resource of resources) {
+    if (!resource.url || !resource.label) continue;
+    const link = document.createElement("a");
+    link.className = `explore-link ${resource.kind || "guide"}`;
+    link.href = resource.url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.textContent = resource.label;
+    group.appendChild(link);
+  }
+
+  if (group.childElementCount) container.appendChild(group);
+}
+
+function orderExploreResources(resources) {
+  return [...resources].sort(
+    (left, right) => Number(left.kind !== "video") - Number(right.kind !== "video")
+  );
+}
+
+function buildExploreResources(item) {
+  if (item.resources?.length) return orderExploreResources(item.resources);
+  const placeName = item.place?.name || item.title;
+  if (!placeName || item.type === "transport" || item.type === "lodging") return [];
+  const videoQuery = encodeURIComponent(`${placeName} 日本旅遊`);
+  const guideQuery = encodeURIComponent(`${placeName} 旅遊 達人 攻略`);
+  return orderExploreResources([
+    { label: "看 YouTube", url: `https://www.youtube.com/results?search_query=${videoQuery}`, kind: "video" },
+    { label: "找旅人攻略", url: `https://www.google.com/search?q=${guideQuery}`, kind: "guide" }
+  ]);
+}
+
 function formatTime(item) {
   if (!item.time) return "";
   return item.end_time ? `${item.time}-${item.end_time}` : item.time;
@@ -216,6 +253,8 @@ function renderTimelineItem(item) {
   } else {
     map.remove();
   }
+
+  renderExploreLinks(node.querySelector(".timeline-content"), buildExploreResources(item));
 
   if (item.info_status === "needs_confirmation") {
     const status = document.createElement("span");

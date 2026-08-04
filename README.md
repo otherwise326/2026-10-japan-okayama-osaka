@@ -1,6 +1,7 @@
-# 日本岡山大阪七日行
+# 岡山大阪精彩七日遊
 
-Public mobile itinerary page for the 2026-10 Okayama / Osaka / Nara trip.
+Public mobile itinerary page for the 2026-10 Okayama / Kurashiki / Osaka / Nara trip.
+It includes the main itinerary, full-day alternatives, and practical items to confirm so companions can review the plan together.
 
 ## Files
 
@@ -8,7 +9,6 @@ Public mobile itinerary page for the 2026-10 Okayama / Osaka / Nara trip.
 - `styles.css` - page styles.
 - `app.js` - client-side rendering.
 - `itinerary.json` - public itinerary data.
-- `vendor/` - bundled third-party licenses.
 
 ## Preview
 
