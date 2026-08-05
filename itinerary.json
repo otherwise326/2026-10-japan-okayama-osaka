@@ -2096,6 +2096,198 @@
       ]
     },
     {
+      "id": "candidate-arima-onsen-private-bath",
+      "anchor": "candidate-arima-onsen-private-bath",
+      "day": 6,
+      "date": "2026-10-23",
+      "title": "有馬溫泉私湯慢旅（替換大阪 Day 6）",
+      "base": "Crystal Court Namba",
+      "pace": "放鬆精彩",
+      "daily_reminders": [
+        "這是完整替換方案：選這天時，就不再安排大阪城、中之島、梅田或大阪港；Day 7 的海遊館與天保山維持獨立。",
+        "有馬溫泉以日歸客房與貸切湯為核心，讓兩人有真正的泡湯與休息時間，而不是在城市裡塞景點。"
+      ],
+      "timeline": [
+        {
+          "time": "08:30",
+          "end_time": "10:15",
+          "type": "transport",
+          "title": "難波前往有馬溫泉",
+          "summary": "先到大阪站，再依當日班次接 JR、神戶市營地下鐵與神戶電鐵前往有馬；不壓縮轉乘。",
+          "place": {
+            "name": "有馬溫泉站",
+            "map_url": "https://maps.google.com/?q=Arima+Onsen+Station"
+          },
+          "info_status": "needs_confirmation"
+        },
+        {
+          "time": "10:15",
+          "end_time": "11:30",
+          "type": "sight",
+          "flag": "溫泉街",
+          "title": "湯本坂、金之湯周邊慢走",
+          "summary": "看有馬老街、金泉色澤與山城尺度；不再加神社或大型景點，讓這天保有溫泉旅行的節奏。",
+          "place": {
+            "name": "湯本坂 有馬溫泉",
+            "map_url": "https://maps.google.com/?q=Yumotozaka+Arima+Onsen"
+          },
+          "info_status": "confirmed",
+          "resources": [
+            {
+              "label": "有馬官方介紹",
+              "url": "https://visit.arima-onsen.com/plan-your-trip/introduction/",
+              "kind": "guide"
+            }
+          ]
+        },
+        {
+          "time": "11:30",
+          "end_time": "12:45",
+          "type": "restaurant",
+          "meal_type": "lunch",
+          "title": "午餐：有馬溫泉街",
+          "summary": "在日歸客房 check-in 前吃完，不讓泡湯與用餐互相趕時間。",
+          "place": {
+            "name": "有馬溫泉街餐廳",
+            "map_url": "https://maps.google.com/?q=Arima+Onsen+lunch"
+          },
+          "info_status": "needs_confirmation",
+          "food_area": [
+            {
+              "name": "湯本坂／金之湯周邊",
+              "reason": "上午散步後最順，也方便準時前往日歸住宿。",
+              "map_url": "https://maps.google.com/?q=Arima+Onsen+lunch"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "有馬十八番",
+              "note": "想吃有馬當地午餐時的主選；出發前確認營業與候位。",
+              "map_url": "https://maps.google.com/?q=Arima+Juhachiban",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "有馬溫泉街蕎麥／釜飯",
+              "note": "以當日營業與客房 check-in 時間彈性選擇。",
+              "map_url": "https://maps.google.com/?q=Arima+Onsen+soba",
+              "info_status": "needs_confirmation"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "end_time": "13:30",
+          "type": "sight",
+          "title": "湯屋之宿 康貴日歸客房 check-in",
+          "summary": "取得日歸客房後，行李、毛巾與休息都固定在同一個私密空間，不必在公共休憩區耗時間。",
+          "place": {
+            "name": "湯屋之宿 康貴",
+            "map_url": "https://maps.google.com/?q=Arima+Onsen+Koki"
+          },
+          "info_status": "needs_confirmation"
+        },
+        {
+          "time": "13:30",
+          "end_time": "14:15",
+          "type": "sight",
+          "flag": "私湯優先",
+          "title": "兩人貸切銀泉 45 分鐘",
+          "summary": "日歸客房方案附一次貸切風呂；這段才是兩人一起泡湯的核心，不以夫妻資格的模糊規則賭運氣。",
+          "place": {
+            "name": "湯屋之宿 康貴 貸切風呂",
+            "map_url": "https://maps.google.com/?q=Arima+Onsen+Koki"
+          },
+          "info_status": "needs_confirmation",
+          "resources": [
+            {
+              "label": "日歸方案官方資訊",
+              "url": "https://www.arima-onsen.com/pickup/55/676/",
+              "kind": "guide"
+            }
+          ]
+        },
+        {
+          "time": "14:15",
+          "end_time": "16:30",
+          "type": "sight",
+          "title": "金泉／銀泉大浴場與客房午休",
+          "summary": "兩人各自泡大浴場後回客房喝茶、午睡或慢慢整理；這段故意留白，讓備選日真的有休息感。",
+          "place": {
+            "name": "湯屋之宿 康貴",
+            "map_url": "https://maps.google.com/?q=Arima+Onsen+Koki"
+          },
+          "info_status": "needs_confirmation"
+        },
+        {
+          "time": "16:30",
+          "end_time": "17:45",
+          "type": "sight",
+          "title": "有馬川、炭酸煎餅與溫泉伴手禮",
+          "summary": "泡湯後只做輕量的河邊散步與甜點採買；不再重複任何大阪港或市區景點。",
+          "place": {
+            "name": "有馬川親水公園",
+            "map_url": "https://maps.google.com/?q=Arima+River+Shinsui+Park"
+          },
+          "info_status": "estimated"
+        },
+        {
+          "time": "17:45",
+          "end_time": "19:30",
+          "type": "restaurant",
+          "meal_type": "dinner",
+          "title": "晚餐：有馬溫泉街收尾",
+          "summary": "在山城吃完晚餐再回大阪，避免回難波後又重複既有的夜間商圈行程。",
+          "place": {
+            "name": "有馬溫泉街餐廳",
+            "map_url": "https://maps.google.com/?q=Arima+Onsen+dinner"
+          },
+          "info_status": "needs_confirmation",
+          "food_area": [
+            {
+              "name": "有馬溫泉街",
+              "reason": "不趕回大阪覓食，讓溫泉日完整收在山城。",
+              "map_url": "https://maps.google.com/?q=Arima+Onsen+dinner"
+            }
+          ],
+          "alternatives": [
+            {
+              "label": "主推",
+              "name": "有馬十八番",
+              "note": "若午餐未吃或晚間有營業，以在地料理收尾；出發前確認營業。",
+              "map_url": "https://maps.google.com/?q=Arima+Juhachiban",
+              "info_status": "needs_confirmation"
+            },
+            {
+              "label": "備案",
+              "name": "有馬溫泉街和食",
+              "note": "依日歸客房 check-out 與當日店休彈性挑選。",
+              "map_url": "https://maps.google.com/?q=Arima+Onsen+restaurants",
+              "info_status": "needs_confirmation"
+            }
+          ]
+        },
+        {
+          "time": "19:30",
+          "end_time": "21:15",
+          "type": "transport",
+          "title": "返回難波",
+          "summary": "依有馬溫泉－大阪站與大阪站－難波的當日轉乘返回飯店。",
+          "place": {
+            "name": "Crystal Court Namba",
+            "map_url": "https://maps.google.com/?q=Crystal+Court+Namba"
+          },
+          "info_status": "needs_confirmation"
+        }
+      ],
+      "fallbacks": [],
+      "to_confirm": [
+        "優先確認康貴 2026/10/23 12:00–18:00 日歸客房與附帶的 45 分鐘貸切湯；若無房，這個『兩人私湯』版本不成立，需另選有馬其他日歸方案。",
+        "確認大阪站－有馬溫泉的實際轉乘、溫泉街餐廳營業與康貴當日金泉／銀泉使用規則。"
+      ]
+    },
+    {
       "id": "candidate-osaka-expo-city",
       "anchor": "candidate-osaka-expo-city",
       "day": 6,
